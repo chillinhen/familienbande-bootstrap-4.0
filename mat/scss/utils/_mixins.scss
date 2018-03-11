@@ -1,0 +1,179 @@
+.foo{
+    border:1px solid $foo;
+}
+@mixin clearfix{
+    &:before,
+        &:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+/** Buttons **/
+@mixin button-style ($r, $pd, $font) {
+    -webkit-border-radius: $r;
+    border-radius: $r;
+    border-width: 0;
+    box-shadow: none;
+    padding: $pd;
+    font-size: $font;
+    line-height: 1;
+}
+@mixin tag-line{
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    font-size: 1.05em;
+    text-align:center;
+    color:#000;
+}
+@mixin header-subline{
+    &:after {
+        content:'';
+        display:block;
+        height:3px;
+        width:12%;
+        background:$brand-secondary;
+        margin-top: .5em;
+    }
+}
+@mixin box-shadow-green{
+    -webkit-box-shadow: 5px 5px 0 0 rgba(57,180,112,.75);
+    box-shadow: 5px 5px 0 0 rgba(57,180,112,.75);
+}
+@mixin wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: 2;
+    @media screen and (min-width:$screen-lg){
+        width: 1140px;
+    }
+}
+@mixin multiple-border{
+    background: linear-gradient(to right, $blue 0%, $blue 25%, $yellow 25%, $yellow 50%, $pink 50%, $pink 75%, $green 75%, $green 100%);
+}
+@mixin white-logo($height){
+    min-height:$height;
+    text-indent: -99999px;
+    background: transparent url(../img/logo-white.png) no-repeat top center / contain;
+}
+@mixin gradient-overlay{
+     &:before{
+            content:'';
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+48,0.65+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 48%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 48%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 48%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+            opacity:.5;
+        }
+}
+
+@mixin color-divs ($count, $baseName, $startcolor) {
+    @for $i from 1 through $count {
+        $background-color: darken($startcolor, $i * $i); 
+    .color#{$i} {
+      background: $background-color;
+    }
+   }
+    
+}
+@mixin box-shadow($color){
+-webkit-box-shadow: 5px 5px 0 0 $color;
+box-shadow: 5px 5px 0 0 $color;
+}
+@mixin text-indent{
+    width: 0;
+    height: 0;
+    display: inline-block;
+    text-indent: -999999px;
+}
+/** Color per category**/
+@mixin category-backgrounds{
+    .cat-blue &{background:$blue;}
+    .cat-yellow &{background:$yellow;}
+    .cat-pink &{background:$pink;}
+    .cat-green &{background:$green;}
+}
+@mixin category-color{
+    .cat-blue &{color:$blue;}
+    .cat-yellow &{color:$yellow;}
+    .cat-pink &{color:$pink;}
+    .cat-green &{color:$green;}
+}
+@mixin category-border($width, $style){
+    border:{
+        width:$width;
+        style:$style;
+    }
+    .cat-blue &{border-color:$blue;}
+    .cat-yellow &{border-color:$yellow;}
+    .cat-pink &{border-color:$pink;}
+    .cat-green &{border-color:$green;}
+}
+/**Alternate Colors**/
+@mixin alternate-bg-colors{
+    li:nth-child(4n+1) &{
+        background:$blue;
+    }
+    li:nth-child(4n+2) &{
+        background:$yellow;
+    }
+    li:nth-child(4n+3) &{
+        background:$pink;
+    }
+    li:nth-child(4n+4) &{
+        background:$green;
+    }
+}
+@mixin alternate-color{
+    //number of alternating colors(n) + the position
+    li:nth-child(4n+1) &{
+        color:$blue;
+    }
+    li:nth-child(4n+2) &{
+        color:$yellow;
+    }
+    li:nth-child(4n+3) &{
+        color:$pink;
+    }
+    li:nth-child(4n+4) &{
+        color:$green;
+    }
+}
+@mixin square-caption-overlay($size){
+        figure{
+        position:relative;
+        @include size($size);
+        overflow:hidden;
+        > figcaption{
+           position:absolute; 
+           top:-$size;
+           font-size:larger;
+                       padding:1vW;
+            font-weight:bold;
+            text-align:center;
+           @include display(flex);
+           @include flex-direction(row);
+           @include justify-content(center);
+           @include align-items(center);
+        }
+        &:hover, &:focus {
+            cursor:pointer;
+            > figcaption{
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            color:white;
+            background:rgba(0,0,0,.7);
+            @include transition(top 200ms ease-out);
+        }
+        }
+    }
+}

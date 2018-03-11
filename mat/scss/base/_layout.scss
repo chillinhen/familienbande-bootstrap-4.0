@@ -1,0 +1,144 @@
+body{
+    background:$body-bg;
+
+    &#events, &#names{
+        .sidebar{
+            #btnSuche, #collapseSuche{
+                display:none;
+            }
+        }
+    }
+}
+
+#header{
+    position:relative;
+    #top-bar{
+        padding:2em 1em;
+    }
+    #top-nav{
+        @include shadow;
+        .navbar-light{
+            background:$blueGrey;
+            @include transition(all 200ms ease-out);
+            @include shadow;
+        }
+    }
+}
+.hero {
+    body#home &, body#names &{
+        background:transparent url(../img/look.jpg) no-repeat 100% 60% / cover;
+    }
+    body#events &{
+        background:transparent url(../img/myles-tan-84040.jpg) no-repeat 100% 50% / cover;
+    }
+
+    & .row{
+        min-height: 50vH;
+        padding-bottom: 5vH;
+    }
+    & .row{
+        margin-bottom: -10vH;
+    }
+    
+
+    .claim , .claim *{
+        color:white;
+    }
+    h1 {
+        @include white-logo(60px);
+        background-position:top left;
+    } 
+    &:before,
+        &:after{
+        content:'';
+        height:.3rem;
+        display: block;
+        @include multiple-border;
+        margin-bottom:2em;
+    }
+}
+main.main-content{
+    margin-top:2em;
+    .hero + &{
+        margin-top:10vH;
+    }
+    .content{
+        > .row{
+            margin-bottom:5rem;
+        }
+    }
+    .sidebar{
+
+    }
+}
+#footer {
+    #home &{
+        margin-top:2em;
+    }
+    position:relative;
+    .footer-links{
+        @include linearGradient($blueGrey, shade( $niceGrey, 20% ));
+    }
+    .footer-bottom{
+        background:shade( $niceGrey, 30% );
+
+        .login-link, .register-link {
+            margin:0 0 0 1em;
+            &:hover{
+                color:inherit;
+            }
+        }
+    }
+    *{
+        color:lighten($blue,100%)
+    }
+    h3 {
+        margin-bottom:.5em;
+    }
+    .logo{
+        @include white-logo(150px);
+        background: transparent url(../img/small-white-logo.png) no-repeat top center / contain;
+    }
+
+}
+.container-fluid{
+    max-width: 1170px;
+    margin:0 auto;
+}
+#infoblock{
+    &.js-is-sticky,
+    &.js-is-stuck{
+        position:sticky !important;
+        top:100px !important;
+        @include transition(all 400ms ease-out);
+    }
+}
+.parallax{
+    background-repeat:no-repeat;
+    background-color:transparent;
+    background-size:cover;
+    background-attachment: fixed;
+
+    body[class*="cat"] &{
+        background-image:url(../img/patrick-fore-358120-unsplash.jpg);
+        background-position:top left;
+        margin:2em 0 0 0;
+    }
+    &.cat-yellow &{
+        background-image:url(../img/look.jpg);
+        background-position:center center;
+        margin:0 0 2em 0;
+    }
+
+    [class*="col-"]{padding:100px 0;}
+    &:before,&:after{
+        content:'';
+        height:.3rem;
+        display: block;
+        @include multiple-border;
+    }
+    * {
+        color:white;
+        font-weight:bold;
+    }
+}

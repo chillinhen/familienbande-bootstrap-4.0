@@ -1,0 +1,92 @@
+.ads{
+    margin:2em 0;
+    &.leaderboard-container{
+      @include category-backgrounds;
+      padding:2em 0;
+      margin-top:0;
+    }
+   
+    &:hover{
+        cursor:pointer;
+    }
+}
+.image-grid{
+    
+    @include display(flex);
+    @media screen and (max-width:425px){
+        margin:1px auto;
+        @include flex-direction(column);
+        @include square-caption-overlay(300px);
+    }
+    
+    @media screen and (min-width:426px){
+        @include flex-wrap(wrap);
+        @include flex-grow(1);
+        > *{
+            @include flex(1);
+            margin:1px;
+        }
+         > *:last-child{
+            @include flex-grow(0);
+            @include flex-shrink(0);  
+        }
+    }
+    @media screen and (min-width:426px)and (max-width:767px){
+        margin:0 -1em;
+        > *{
+            @include flex-basis(calc(100%/2 - 2px));
+            max-width:(calc(100%/2 - 2px));
+        }
+        @include square-caption-overlay(250px);
+    }
+    @media screen and (min-width:768px){
+        
+        > *{
+            @include flex-basis(calc(100%/4 - 2px));
+            max-width:(calc(100%/4 - 2px));
+        }
+       
+        @include square-caption-overlay(170px);
+    }
+}
+[id*="carousel"]{
+    .card-group{
+        > *{
+            margin:0 3px;
+        } 
+    }
+    [class*="carousel-control"]{   
+        width:40px;
+        font-size:40px;
+        z-index:999;
+        @include category-color;
+        [class*="icon"]{
+            font-size:inherit;
+            color:inherit;
+        }
+    }
+    .carousel-control-prev{
+        left:-40px;
+    }
+    .carousel-control-next{
+        right:-40px;
+    }
+    .carousel-indicators{
+        z-index:999;
+        bottom:-5rem;
+        li {
+            margin:0 1rem;
+            @include size(1em);
+            @include border-radius (50%);
+            @include category-backgrounds;
+            opacity:.5;
+            &:hover,
+            &.active{
+                opacity:1
+            }
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+}

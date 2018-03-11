@@ -1,0 +1,56 @@
+/* =============================================================================
+   Colors
+   ========================================================================== */
+$foo:red;
+$blue:#159EE5;
+$darkerBlue:darken($blue,5%);
+$logoBlue:#406584;
+$yellow:#FF9A34;
+$darkerYellow:darken($yellow,5%);
+$pink:#FF77A5;
+$darkerPink:darken($pink,5%);
+$green:#00B470;
+$darkerGreen:darken($green,5%);
+$niceGrey:#404c5a;
+$blueGrey:#495f7f;
+
+$brand-primary:$blue;
+$brand-secondary: $yellow;
+
+$brand-success:$green;
+$brand-info:#FFF690;
+$brand-warning:#E84218;
+$brand-danger:#E81E18;
+
+$body-bg:#FAFAFA;
+$text-color:#333;
+$light-text-color:#999;
+$light-gray:#ccc;
+$dark-gray:darken($light-gray,50%);
+$link-color:$brand-primary;
+$border-color:$light-gray;
+
+$white: #fff;
+$bg-inverse: #000;
+
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+
+$base-font-size:            100% !default;
+$base-line-height:          150% !default;
+$rem-base:                  14px !default;
+
+$paragraph-margin:          1rem;
+
+$headings-font-family:    'Lato', sans-serif;
+$body-font-family:        'Muli', sans-serif;
+
+$heading-text-color:        $text-color;
+$body-text-color:           $text-color;
+$text-muted-color:          lighten($text-color,25%);
+
+/* Margins & Paddings */
+$outer-grid:2 * $rem-base;
+$vertical-spacing:2*$rem-base;
