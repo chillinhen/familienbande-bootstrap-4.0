@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-sm-4 sidebar order-lg-2">
                     <aside id="infoblock" class="fixedsticky">
-                        <?php #include('includes/template/sidebar.php'); ?>
+                        <?php include('includes/template/sidebar.php'); ?>
                     </aside>
                 </div>
                 <div class="col-sm-8 content order-lg-1"> 

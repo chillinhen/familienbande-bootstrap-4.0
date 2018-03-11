@@ -1,72 +1,8 @@
-/*** Sidebar ***/
-#infoblock{
-@include transition(all 400ms ease-out);
-    @media screen and (max-width:991px){
-        margin:1em 0;
-        @include border-top-radius(1.2em);
-        @include border-bottom-radius(1.2em);
-        overflow:hidden;
-    }
-    @media screen and (max-width:767px){
-            &.js-is-sticky,
-    &.js-is-stuck{
-        position:fixed;
-            top:50px;
-            left:0;
-            right:0;
-            background:white;
-            z-index:9998;
-            margin:0 -15px;
-            @include border-radius(0);
-    }
-    }
-    @media screen and (min-width:992px){
-        top:0;
-        &.js-is-sticky,
-        &.js-is-stuck{
-            top:100px !important;
-        }
-    }
-    [id*="btn"]{
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 1.2;
-        margin: 0 0 1px 0;
-        padding: 1em .5em;
-        &:hover,
-        &:focus{
-            cursor:pointer;
-        }
-        &[class*="cat"]{
-            color:white;
-        }
 
-        &.cat-blue{
-            background:$blue;
-        }
-        &.cat-yellow{
-            background:$yellow;
-        }
-        &.cat-pink{
-            background:$pink;
-        }
-        &.cat-green{
-            background:$green;
-        }
-    }
-    [id*="collapse"]{
-        @media screen and (min-width:992px){
-            display:block;
-        }
-
-    }
-}
 
 [aria-label="breadcrumb"]{
     width:100%;
     .breadcrumb{
-        background-color:transparent;
         width:inherit;
         &:after{
             content:'';

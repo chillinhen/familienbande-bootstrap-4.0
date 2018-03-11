@@ -1,5 +1,5 @@
 <header id="header">
-    <div id="top-bar" class="col-12 mt-4">
+    <div id="top-bar" class="col-12 mt-md-4">
         <div class="d-flex justify-content-between justify-content-xl-center align-items-center">
             <!--        <div class="row d-flex justify-content-around ">-->
             <!--        <div class="row justify-content-around justify-content-lg-center flex-md-row flex-sm-column">-->
