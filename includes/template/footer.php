@@ -1,8 +1,8 @@
 <footer id="footer">
-    <section class="footer-lists py-5">
+    <section class="footer-lists py-3 py-lg-5">
         <div class="container">
-            <div class="row align-items-md-end">
-                <div class="col-md-3 logo align-self-center">
+            <div class="row align-items-start">
+                <div class="col-md-3 logo align-self-baseline">
                     <h3>über familienbande24.de</h3>
                 </div>
                 <div class="col-md-3 about">
