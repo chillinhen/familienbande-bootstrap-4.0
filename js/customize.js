@@ -48,4 +48,8 @@ jQuery(document).ready(function ($) {
 //    $(".dropdown-item").filter(function() {
 //    return parseInt($(this).attr("tabindex")) > -1;
 //}).css('border','1px solid orange');
+
+//jQuery(document).on('click', '.mega-dropdown', function(e) {
+//  e.stopPropagation()
+//})
 });

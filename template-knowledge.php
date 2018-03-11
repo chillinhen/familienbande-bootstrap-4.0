@@ -3,7 +3,7 @@
     <?php include('includes/template/header.php'); ?>
 <?php include('includes/navigation/top-nav.php'); ?>
     <main class="main-content">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-4 sidebar order-lg-2">
                     <aside id="infoblock" class="fixedsticky">

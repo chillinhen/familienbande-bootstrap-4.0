@@ -1,5 +1,5 @@
 <section class="parallax">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h3>Lorem Ipsum Call-to-Action z.B: Neues Familienerlebnis eintragen</h3>

@@ -3,7 +3,7 @@
     <?php include('includes/template/header.php'); ?>
     <?php include('includes/navigation/top-nav.php'); ?>
 <!--    <div class="hero">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-end">
                 <div class="col-sm-10 offset-md-1">
                     <?php #include('includes/forms/form-large-double-search.php'); ?>
@@ -12,7 +12,7 @@
         </div>
     </div>-->
     <main class="main-content">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-sm-4 sidebar order-lg-2">
                     <aside id="infoblock" class="fixedsticky">

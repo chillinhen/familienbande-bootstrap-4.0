@@ -16,12 +16,7 @@ body{
         padding:2em 1em;
     }
     #top-nav{
-        @include shadow;
-        .navbar-light{
-            background:$blueGrey;
-            @include transition(all 200ms ease-out);
-            @include shadow;
-        }
+
     }
 }
 .hero {

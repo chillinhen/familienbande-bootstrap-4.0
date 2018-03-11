@@ -1,5 +1,5 @@
 <div class="parallax cat-names">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h3>Zuletzt besuchte Vornamen</h3>

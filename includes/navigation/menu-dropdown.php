@@ -6,14 +6,14 @@
         <a class="nav-link dropdown-toggle" id="navbarDropdownEvents" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wohin?</a>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" tabindex="-1" href="template-events.php">Einstiegsseite "Wohin"</a></li>
-            <?php include('includes/navigation/dropdown-menu.php'); ?>
+            <?php include('includes/navigation/dropdown.php'); ?>
         </ul>
     </li>
     <li class="nav-item cat-yellow dropdown ">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownNames" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vornamen</a>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" tabindex="-1" href="template-names.php">Einstiegsseite "Vornamen"</a></li>
-            <?php include('includes/navigation/dropdown-menu.php'); ?>
+            <?php include('includes/navigation/dropdown.php'); ?>
         </ul>
         
     </li>
@@ -22,7 +22,7 @@
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" tabindex="-1" href="template-knowledge.php" >Einstiegsseite "Wissen"</a></li>
             <li><a class="dropdown-item" tabindex="-1" href="template-search-site.php" >Hebammensuche</a></li>
-            <?php include('includes/navigation/dropdown-menu.php'); ?>
+            <?php include('includes/navigation/dropdown.php'); ?>
         </ul>
         
     </li>
@@ -30,7 +30,7 @@
         <a class="nav-link dropdown-toggle" id="navbarDropdownSlogans" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sprüche</a>
         <ul class="dropdown-menu">
             <li><a class="dropdown-item" tabindex="-1" href="template-slogans.php" >Einstiegsseite "Sprüche"</a></li>
-            <?php include('includes/navigation/dropdown-menu.php'); ?>
+            <?php include('includes/navigation/dropdown.php'); ?>
         </ul>
     </li>
     <li class="nav-item search">

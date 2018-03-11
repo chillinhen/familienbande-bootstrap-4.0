@@ -3,7 +3,7 @@
     <?php include('includes/template/header.php'); ?>
     <?php include('includes/navigation/top-nav.php'); ?>
     <div class="hero">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-end">
                 <div class="claim col">
                     <h1>Familienbande24</h1>
@@ -18,7 +18,7 @@
         </div>
     </div>
     <main class="main-content">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <?php #include('includes/content/content-index.php'); ?>
             </div>
