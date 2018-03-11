@@ -1,0 +1,149 @@
+/* =============================================================================
+   Basics
+   ========================================================================== */
+
+html { font-size: 62.5%; -webkit-text-size-adjust: auto; -ms-text-size-adjust: auto;}
+
+html, body, button, input, select, textarea { 
+    font-family:$body-font-family;
+    color: $text-color; }
+
+::-moz-selection { 
+    text-shadow: none;
+}
+::selection { 
+    text-shadow: none;
+}
+body {
+    text-rendering: optimizeLegibility;
+    font-size:$rem-base;
+    font-weight:400;
+    line-height: $base-line-height;
+}
+a {
+    &,&:link { 
+        text-decoration: none;
+        cursor:pointer;
+        color:inherit;
+    }
+
+    &:visited{
+        opacity:.5;
+    }
+    &:visited, &:hover { 
+        text-decoration: none !important;
+    }
+    &.external:after{
+        @include icon-style ("\f08e", 0, 1, .5em, .8em);
+    }
+}
+h1,h2,h3,h4, legend{
+    line-height: 1.1;
+    color: inherit;
+    font-family:$headings-font-family;
+    text-transform: uppercase;
+    font-weight:600;
+    margin-top:1em;
+    & + *{
+        margin-top:1em;
+    }
+    &:first-child{margin-top:0;}
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    &.subline{
+        text-transform:none;
+        font-size:1.4em;
+    }
+    
+}
+h2, legend {
+    main &{
+        font-size: 2.5rem;
+        
+    }
+    #home main &{
+        margin-bottom: 2em;
+    }
+    .text-center &{
+        margin:3em 0 1.4em 0;
+        display:inline-block;
+        &:after{
+        height:.6rem;
+        width:50%;
+        margin:1em auto 0;
+    } 
+    }
+    main &:not(.card-title):after{
+        content:'';
+        height:.3rem;
+        margin-top:1em;
+        width:50%;
+        display: block;
+        @include multiple-border;
+    } 
+    .intro & + p{
+        margin-top:2em;
+    }
+}
+legend{
+    .largeDoubleSearch &,
+    .largeSimpleSearch &{
+        margin-bottom:1em;
+    }
+    .modal-content &:after{
+        content:'';
+        height:.3rem;
+        margin-top:1em;
+        width:50%;
+        display: inline-block;
+        @include multiple-border;
+        text-align:center;
+    }
+}
+h3 {
+    main &{
+        margin-bottom: 1em;
+    }
+}
+h4{}
+h5{
+    display: inline-block;
+    &.category{
+        &:after{
+            content:'';
+            display: block;
+            width:150%;
+            height:.3rem;
+            margin:.5em 0 1em 0;
+        }
+        .cat-yellow &:after{
+            background-color: $blue;
+        }
+        .cat-yellow &:after{
+            background-color: $yellow;
+        }
+        .cat-pink &:after{
+            background-color: $pink;
+        }
+        .cat-green &:after{
+            background-color: $green;
+        }
+    }
+}
+h6 {
+    &.badge-box{
+        margin-bottom:1em;
+    }
+}
+
+p, span{
+    color:inherit;
+}
+.lead{
+    font-size:1.2em;
+}
+i[class*="fa"]{
+  color:inherit;  
+}

@@ -1,0 +1,171 @@
+.btn:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+.btn
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+.btn:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active{
+    outline: none;
+}
+.btn,
+input[type="button"],
+input[type="reset"],
+input[type="submit"]{
+    margin:0 .5em;
+    @include button-style (1.2em, 1em, 1em);
+    background:$brand-primary;
+    color:$white;
+}
+.btn{
+    &:not(.search){
+       [class*="fa"]{
+        margin:0 .5em 0 0;
+    } 
+    }
+    
+}
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="search"],
+input[type="confirm_email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select { 
+    background-color: $body-bg !important;
+    @include border-radius(0);
+    border:1px solid $border-color;
+    padding: .5em 1em;
+    height:3em;
+    font-size:1em;
+    /*ToDo*/
+/*    .form-group &{
+        margin:0 1em;
+        min-width:300px;
+    }*/
+/*    @media screen and (max-width:$screen-xs){
+        width:100%;
+    }
+    @media screen and (min-device-width:$screen-sm + 1) and (orientation:portrait){
+        width: 90%;_NO__DOTCOMMA__AFTER__ 
+
+    }*/
+}
+/*Checkbox*/
+input[type="checkbox"], input[type="radio"]{
+    position: absolute;
+    right: 9000px;
+    font-size:1.6em;
+    + .label-text:before{
+        @include icon-style (" ", .5em, 1, 0, 1.6em);
+        width: 1em;
+    }
+    &:checked + .label-text:before{
+        color: $brand-success;
+    }
+    &:disabled + .label-text{
+        color: $light-text-color;
+        &:before{
+            color: inherit;
+        }
+    }
+}
+/*Radio Buttons*/
+input[type="checkbox"]{
+    + .label-text:before{
+        content: "\f096";
+    }
+    &:checked + .label-text:before{
+        content: "\f14a";
+    }
+    &:disabled + .label-text:before{
+        content: "\f0c8";
+    }
+}
+input[type="radio"]{
+    + .label-text:before{
+        content: "\f10c";
+    }
+    &:checked + .label-text:before{
+        content: "\f192";
+    }
+    &:disabled + .label-text:before{
+        content: "\f111";
+    }
+    /*Radio Toggle*/
+    .toggle &{
+        + .label-text:before{
+            content: "\f204";
+        }
+        &:checked + .label-text:before{
+            content: "\f205";
+        }
+        &:disabled + .label-text:before{
+            content: "\f204";
+        }
+    }
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    @include appearance(none);
+    margin: 0; 
+}
+input[type=number] {@include appearance(textfield);}
+
+textarea {
+    height: auto;
+    overflow: auto;
+    resize: vertical;
+}
+label{
+    position: relative;
+    cursor: pointer;
+    font-size:larger;
+    font-weight:bold;
+    display:block;
+
+    .form-group &.has-icons{
+        width:2em;
+        span{
+            @include text-indent;
+        } 
+    }
+}
+
+.form-inline{
+        @media screen and (max-width:$screen-xs){
+            margin-top:2em;
+        }
+    }
+    .form-control{
+    @media screen and (max-width:$screen-sm - 1){
+        width:80%;
+    }
+}
+.input-group{
+    margin:1em 0;
+}
+.input-group-text{
+        font-size: 1.2em;
+        border: 0;
+        padding:{
+            left:1em;
+            right:1em;
+        }
+        @include category-backgrounds;
+        
+        .justify-content-start & [class*="fa"]{
+            @include align-self(start);
+            margin-top:1em;
+        }
+    }
+
+.form-check{
+    margin:0 0 .5em 0;
+}
