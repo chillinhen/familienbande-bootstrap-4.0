@@ -249,22 +249,7 @@
 
     }
 }
-.footer-bottom{
-    ul {
-        margin:0;
-    }
-    li {
-        a{
-            padding:0 3em 0 1em;
-            &:hover{
-                color:inherit;
-            }
-        }
-        &:first-child{
-           list-style:none; 
-        }
-    }
-}
+
 [aria-label="breadcrumb"]{
     width:100%;
     .breadcrumb{

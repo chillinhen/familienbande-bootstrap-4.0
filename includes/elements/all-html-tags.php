@@ -1,5 +1,6 @@
 <h2>Headings</h2>
-<h1>Header one</h1>
+<h1>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h1>
+
 <h2>Header two</h2>
 <h3>Header three</h3>
 <h4>Header four</h4>

@@ -1,6 +1,6 @@
 <footer id="footer">
-    <section class="footer-links py-5">
-        <div class="container-fluid">
+    <section class="footer-lists py-5">
+        <div class="container">
             <div class="row align-items-md-end">
                 <div class="col-md-3 logo align-self-center">
                     <h3>über familienbande24.de</h3>
@@ -30,14 +30,14 @@
         </div>
     </section>
     <section class="footer-bottom py-3">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-3">
-                    <a class="login-link align-self-center"  data-toggle="modal" data-target="#modalLoginDialog"><i class="fas fa-sign-in-alt"></i> Login</a>
-                    <a class="register-link align-self-center" href="template.php"><i class="fas fa-user-plus"></i> Anmelden</a>
+        <div class="container">
+            <div class="row align-items-md-start align-items-lg-center justify-content-between">
+                <div class="col-md-3 footer-links">
+                    <a class="login-link align-self-center d-sm-block d-lg-inline"  data-toggle="modal" data-target="#modalLoginDialog"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    <a class="register-link align-self-center d-sm-block d-lg-inline" href="template.php"><i class="fas fa-user-plus"></i> Anmelden</a>
                 </div>
-                <div class="col-md-4 offset-md-1">
-                    <ul class="d-flex justify-content-center align-items-center">
+                <div class="col-md-4 offset-md-1 footer-meta-menu">
+                    <ul class="d-flex flex-column flex-lg-row justify-content-center align-items-md-start align-items-lg-center">
                         <li><a href="#">Impressum</a></li>
                         <li><a href="#">Datenschutz</a></li>
                         <li><a href="#">Kontakt</a></li>
