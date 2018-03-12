@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card card-default box-shadow">
     <div class="card-body text-center">
         <h3>Neuer Eintrag</h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing 

@@ -5,7 +5,7 @@
 </div>
 <div class="row">
     <div class="cols-md-12">
-        <?php include('includes/txt-entry.php'); ?>
+        <?php include('includes/elements/txt-entry.php'); ?>
     </div>
 </div>
 <div class="row">

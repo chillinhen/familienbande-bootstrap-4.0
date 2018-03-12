@@ -11,7 +11,7 @@
                 <label for="largeLocationSearch">Wo suchst du?</label>
                 <input id="largeLocationSearch" class="form-control" type="text" placeholder="Stadt, region, Bundesland">
             </div>
-                <div><button type="submit" class="btn btn-secondary align-self-center"><span>Suche </span><i class="fas fa-search"></i></button></div>
+                <div class="mt-sm-4 cat-yellow"><button type="submit" class="btn align-self-center"><span>Suche </span><i class="fas fa-search"></i></button></div>
             </div>
         </form>
     </div>

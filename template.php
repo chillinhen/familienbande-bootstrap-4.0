@@ -14,19 +14,19 @@
     <main class="main-content">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 sidebar order-lg-2">
+                <div class="col-lg-4 sidebar order-lg-2">
                     <aside id="infoblock" class="fixedsticky">
                         <?php include('includes/template/sidebar.php'); ?>
                     </aside>
                 </div>
-                <div class="col-sm-8 content order-lg-1"> 
+                <div class="col-lg-8 content order-lg-1"> 
                     <?php include('includes/content/content-dummy.php'); ?>
                 </div>
             </div>
         </div>
-        <?php #include('includes/includes/modules/parallax.php'); ?>
+        <?php include('includes/modules/parallax.php'); ?>
     </main>
     <?php
     include('includes/template/footer.php');
-    #include('includes/modal-overlays/modal-search-dialog.php');
+    include('includes/modal-overlays/modal-search-dialog.php');
     ?>

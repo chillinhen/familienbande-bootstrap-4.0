@@ -8,7 +8,7 @@
                 <label for="largeNameSearch">Vornamensuche</label>
                 
                     <input id="largeNameSearch" class="form-control" type="text" placeholder="Welchen Vornamen suchst du?">
-                    <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i><span>Suche</span></button>
+                    <button type="submit" class="mt-sm-4 btn btn-primary"><i class="fas fa-search"></i><span>Suche</span></button>
 
             </div>
         </form>

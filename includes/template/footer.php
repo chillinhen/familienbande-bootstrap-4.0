@@ -1,4 +1,4 @@
-<footer id="footer" class="mt-5">
+<footer id="footer">
     <section class="footer-lists py-3 py-lg-5">
         <div class="container">
             <div class="row align-items-start">

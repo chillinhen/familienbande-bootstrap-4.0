@@ -16,10 +16,11 @@
         <!-- fontawesome -->
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <!--        <link rel="stylesheet" href="css/screen.css" media="all">-->
-<link href="node_modules/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap-customized.css" rel="stylesheet" type="text/css"/>
         <title>Familienbande24 - alles zu Vornamen, Schwangerschaft, Geburt und Kinder</title>
     </head>
     
                                     
                                         
                                             
+    

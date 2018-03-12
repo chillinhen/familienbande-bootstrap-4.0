@@ -73,32 +73,3 @@ main.main-content{
         @include transition(all 400ms ease-out);
     }
 }
-.parallax{
-    background-repeat:no-repeat;
-    background-color:transparent;
-    background-size:cover;
-    background-attachment: fixed;
-
-    body[class*="cat"] &{
-        background-image:url(../img/patrick-fore-358120-unsplash.jpg);
-        background-position:top left;
-        margin:2em 0 0 0;
-    }
-    &.cat-yellow &{
-        background-image:url(../img/look.jpg);
-        background-position:center center;
-        margin:0 0 2em 0;
-    }
-
-    [class*="col-"]{padding:100px 0;}
-    &:before,&:after{
-        content:'';
-        height:.3rem;
-        display: block;
-        @include multiple-border;
-    }
-    * {
-        color:white;
-        font-weight:bold;
-    }
-}

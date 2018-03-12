@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <main class="main-content">
+    <main class="main-content mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 sidebar order-lg-2">
@@ -24,9 +24,10 @@
                 </div>
             </div>
         </div>
-        <?php include('includes/includes/modules/parallax.php'); ?>
+        
     </main>
     <?php
+    include('includes/modules/parallax.php');
     include('includes/template/footer.php');
     include('includes/modal-overlays/modal-search-dialog.php');
     ?>
