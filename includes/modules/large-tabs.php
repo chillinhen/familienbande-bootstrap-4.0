@@ -43,7 +43,7 @@
 
 
     </div>
-    <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+    <div class="tab-pane fade table-responsive-sm" id="third" role="tabpanel" aria-labelledby="third-tab">
         <table class="table">
             <thead>
             <th scope="col">Entry Header 1</th>

@@ -3,7 +3,7 @@
         <div class="d-flex justify-content-between justify-content-xl-center align-items-center">
             <!--        <div class="row d-flex justify-content-around ">-->
             <!--        <div class="row justify-content-around justify-content-lg-center flex-md-row flex-sm-column">-->
-            <a class="navbar-brand bg-image" href="template.php">
+            <a class="navbar-brand bg-image" href="index.php">
                 <!--            <a class="navbar-brand bg-image order-md-1 order-lg-1" href="index.php">-->
                 <span>familienbande24.de</span>
             </a>

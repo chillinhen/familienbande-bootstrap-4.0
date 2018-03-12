@@ -1,22 +1,36 @@
 <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item">
-        <a class="nav-link active" id="tab-01" data-toggle="tab" href="#item-01" role="tab" aria-controls="item-01" aria-selected="true">Simple Text
+        <a class="nav-link text-break active" id="tab-01" data-toggle="tab" href="#item-01" role="tab" aria-controls="item-01" aria-selected="true">
+            <i class="fas fa-align-left"></i>
+            <span class="d-none d-sm-inline"><span class="d-none d-xl-inline">Simple</span> Text</span>
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" id="tab-02" data-toggle="tab" href="#item-02" role="tab" aria-controls="item-02" aria-selected="false">Two Column Lists</a>
+        <a class="nav-link text-break" id="tab-02" data-toggle="tab" href="#item-02" role="tab" aria-controls="item-02" aria-selected="false">
+            <i class="fas fa-th-list"></i>
+            <span class="d-none d-sm-inline"><span class="d-none d-xl-inline">Two Column</span> Lists</span>
+        </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" id="tab-03" data-toggle="tab" href="#item-03" role="tab" aria-controls="item-03" aria-selected="false">Simple Table</a>
+        <a class="nav-link text-break" id="tab-03" data-toggle="tab" href="#item-03" role="tab" aria-controls="item-03" aria-selected="false">
+            <i class="fas fa-table"></i>
+            <span class="d-none d-sm-inline"><span class="d-none d-xl-inline">Simple</span> Table</span>
+        </a>
     </li>
     <li class="nav-item ">
-        <a class="nav-link" id="tab-04" data-toggle="tab" href="#item-04" role="tab" aria-controls="item-04" aria-selected="false">Simple Form</a>
+        <a class="nav-link text-break" id="tab-04" data-toggle="tab" href="#item-04" role="tab" aria-controls="item-04" aria-selected="false">
+            <i class="fab fa-wpforms"></i>
+            <span class="d-none d-sm-inline"><span class="d-none d-xl-inline">Simple</span> Form</span>
+        </a>
     </li>
     <li class="nav-item ">
-        <a class="nav-link" id="tab-05" data-toggle="tab" href="#item-05" role="tab" aria-controls="item-05" aria-selected="false">Google Map</a>
+        <a class="nav-link text-break" id="tab-05" data-toggle="tab" href="#item-05" role="tab" aria-controls="item-05" aria-selected="false">
+            <i class="fas fa-map"></i>
+            <span class="d-none d-sm-inline"><span class="d-none d-xl-inline">Google</span> Map</span>
+        </a>
     </li>
 </ul>
-<div class="tab-content" id="myTabContent">
+<div class="tab-content mb-5" id="myTabContent">
     <div class="tab-pane fade show active" id="item-01" role="tabpanel" aria-labelledby="tab-01">
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing 
             elit. Aenean commodo ligula eget dolor. Aenean massa. 
@@ -41,7 +55,7 @@
 
 
     </div>
-    <div class="tab-pane fade" id="item-03" role="tabpanel" aria-labelledby="tab-03">
+    <div class="tab-pane fade table-responsive-sm" id="item-03" role="tabpanel" aria-labelledby="tab-03">
         <table class="table">
             <thead>
             <th scope="col">Entry Header 1</th>

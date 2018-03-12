@@ -19,39 +19,7 @@ body{
 
     }
 }
-.hero {
-    body#home &, body#names &{
-        background:transparent url(../img/look.jpg) no-repeat 100% 60% / cover;
-    }
-    body#events &{
-        background:transparent url(../img/myles-tan-84040.jpg) no-repeat 100% 50% / cover;
-    }
 
-    & .row{
-        min-height: 50vH;
-        padding-bottom: 5vH;
-    }
-    & .row{
-        margin-bottom: -10vH;
-    }
-    
-
-    .claim , .claim *{
-        color:white;
-    }
-    h1 {
-        @include white-logo(60px);
-        background-position:top left;
-    } 
-    &:before,
-        &:after{
-        content:'';
-        height:.3rem;
-        display: block;
-        @include multiple-border;
-        margin-bottom:2em;
-    }
-}
 main.main-content{
     margin-top:2em;
     .hero + &{

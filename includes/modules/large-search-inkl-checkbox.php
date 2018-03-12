@@ -1,5 +1,5 @@
-<h2>Suchformular mit Check- und Radioboxen</h2>
-<legend>Wo genau suchst du eine Hebamme?</legend>
+<h6>Suchformular mit Check- und Radioboxen</h6>
+<h2>Wo genau suchst du eine Hebamme?</h2>
 <p>Lorem ipsum Anleitung dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>
 
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
@@ -17,7 +17,7 @@
             <label for="misc-select">
                 wichtige Auswahlkriterien
             </label>
-            <select name="misc-select">
+            <select class="custom-select" name="misc-select">
                 <option selected>Open this select menu</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -25,23 +25,24 @@
             </select>                         
         </div>
     </div>
-    <h3>Lorem Ipsum weitere Such-Kriterien</h3>
+    <hr>
+    <h6 class="small-category">Lorem Ipsum weitere Such-Kriterien</h6>
     <div class="d-flex justify-content-between">
 
         <div class="form-group custom-checkbox">
-            <h3>1. Customs Checkboxes</h3>
+            <h4>1. Customs Checkboxes</h4>
             <?php include('includes/forms/form-checkboxes.php'); ?>
         </div>
         <div class="form-group custom-control">
-            <h3>2. Customs Radios</h3>
+            <h4>2. Customs Radios</h4>
             <?php include('includes/forms/form-radios.php'); ?>
         </div>
         <div class="form-group">
-            <h3>3. Customs Toggles</h3>
+            <h4>3. Customs Toggles</h4>
             <?php include('includes/forms/form-toggles.php'); ?>
         </div>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mt-5">
         <button class="btn btn-outline-success" type="submit">Suche starten <i class="fas fa-search"></i></button>
     </div>    
 </form>
