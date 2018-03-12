@@ -11,7 +11,7 @@
                     </aside>
                 </div>
                 <div class="col-lg-8 content order-lg-1"> 
-                    <?php include('includes/content/content-modules/profile.php'); ?>
+                    <?php include('includes/content/content-profile.php'); ?>
                 </div>
             </div>
         </div>

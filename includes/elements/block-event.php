@@ -3,7 +3,7 @@
         <div class="icon">
             <i class="far fa-calendar-alt"></i>
         </div>
-        <a href="#">Veranstaltungshinweise</a>  
+        <a href="#">Erlebnisse & Events</a>  
     </h3>
     <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 </div>

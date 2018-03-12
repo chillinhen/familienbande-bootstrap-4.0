@@ -22,7 +22,7 @@
                 <?php include('includes/content/content-index.php'); ?>
             </div>
         </div>
-        <div class="py-5 my-5">
+        <div class="row mb-5 pb-5">
             <div class="col-sm-10 offset-1 text-center">
                 <h2>Weitere Artikel</h2>
                 <?php include('includes/modules/carousel-width-cards.php'); ?>

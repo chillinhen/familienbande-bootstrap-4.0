@@ -2,9 +2,9 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <img class="card-img-top" src="img/hebamme3.jpg" alt="Card image cap">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<!--            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true"><i class="fas fa-times-circle"></i></span>
-                </button>
+                </button>-->
             <div class="modal-header flex-column">
                 <h4 class="modal-title order-2">Donec quam felis ultricies nec pellentesque eu 
                     pretium quis sem nlla consequat massa quis enim</h4>

@@ -1,16 +1,16 @@
 <div class="row">
-    <div class="cols-md-12">
+    <div class="col-md-12">
         <?php include('includes/content/breadcrumb.php'); ?>
     </div>
 </div>
 <div class="row">
-    <div class="cols-md-12">
+    <div class="col-md-12">
         <?php include('includes/elements/big-card.php'); ?>
     </div>
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <?php include('includes/entry-text.php'); ?>
+        <?php include('includes/elements/txt-entry.php'); ?>
     </div>
 </div>
     <div class="row">

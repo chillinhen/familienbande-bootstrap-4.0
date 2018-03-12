@@ -1,6 +1,6 @@
 <section class="featured">
     <!-- Themen -->
-    <?php #include('includes/modules/topics-multicolored.php'); ?>
+    <?php include('includes/modules/topics-multicolored.php'); ?>
     <div class="row">
         <div class="col-sm-12 text-center">
             <h2>Die neuesten Artikel</h2>
@@ -26,17 +26,19 @@
             </aside>
         </div>
         <div class="col-lg-8 content order-lg-1"> 
+            <?php include('includes/elements/txt-entry.php'); ?>
             <?php include('includes/elements/big-card.php'); ?>
-            <?php #include('includes/elements/all-html-tags.php'); ?>
+
             <div class="ads d-none d-sm-block">
                 <img class="img-fluid" src="img/google-ads.jpg" alt=""/>
             </div>
             <?php include('includes/modal-overlays/call-modal-box.php'); ?>
-            
+            <?php include('includes/elements/txt-entry.php'); ?>
+            <?php include('includes/elements/txt-entry.php'); ?>
         </div>
     </div>
 </section>
-<section class="bottom">
+<section class="bottom mt-5">
     <div class="container">
         <?php include('includes/modules/small-img-grid.php'); ?>
     </div>

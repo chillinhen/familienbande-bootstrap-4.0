@@ -9,6 +9,6 @@
             <a href="#">Lorem Ipsum Headline</a>
         </h3>
         <p class="card-text d-none d-lg-block">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn">Go somewhere</a>
+        <a href="template-detail.php" class="btn">Go somewhere</a>
     </div>
 </div>
