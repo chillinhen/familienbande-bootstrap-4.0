@@ -3478,51 +3478,6 @@ input[type="radio"] {
   height: auto;
   width: auto; }
 
-.dropdown-menu {
-  border: 0;
-  top: 100%;
-  left: 50%;
-  z-index: 99999;
-  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
-  .dropdown-menu:before {
-    content: '';
-    top: -2em;
-    position: absolute;
-    display: block;
-    width: 0px;
-    height: 0px;
-    border-style: solid;
-    border-width: 1em;
-    left: .5em; }
-  .dropdown.cat-blue .dropdown-menu:before {
-    border-color: transparent transparent #138ece transparent; }
-  .dropdown.cat-yellow .dropdown-menu:before {
-    border-color: transparent transparent #ff8d1b transparent; }
-  .dropdown.cat-pink .dropdown-menu:before {
-    border-color: transparent transparent #ff5e94 transparent; }
-  .dropdown.cat-green .dropdown-menu:before {
-    border-color: transparent transparent #009b60 transparent; }
-  @media (min-width: 768px) {
-    .dropdown-menu {
-      min-width: 200px; } }
-  @media (max-width: 991.98px) {
-    .dropdown-menu.show {
-      margin: 0 -15px; } }
-  .dropdown-menu .dropdown-item.active, .dropdown-menu .dropdown-item:active {
-    background-color: transparent; }
-  .dropdown.cat-blue .dropdown-menu .dropdown-item {
-    background: #138ece; }
-  .dropdown.cat-yellow .dropdown-menu .dropdown-item {
-    background: #ff8d1b; }
-  .dropdown.cat-pink .dropdown-menu .dropdown-item {
-    background: #ff5e94; }
-  .dropdown.cat-green .dropdown-menu .dropdown-item {
-    background: #009b60; }
-  .dropdown-menu .dropdown-item .dropdown-submenu {
-    position: relative; }
-
 [aria-label="breadcrumb"] {
   /*    width:320px;
       overflow:hidden;*/ }
@@ -8119,5 +8074,30 @@ main.main-content .content > .row {
   padding: 0;
   height: 230px;
   overflow: hidden; }
+
+.navbar-nav {
+  position: relative; }
+
+.mega-dropdown:hover > .mega-dropdown-menu {
+  top: 5rem;
+  transition: position 400ms ease-in-out; }
+
+.mega-dropdown-menu {
+  display: flex;
+  position: absolute;
+  top: -999999px;
+  left: -10vW;
+  right: -10vW;
+  z-index: 99;
+  width: 70vW;
+  color: white; }
+  .cat-blue .mega-dropdown-menu {
+    background: #159EE5; }
+  .cat-yellow .mega-dropdown-menu {
+    background: #FF9A34; }
+  .cat-pink .mega-dropdown-menu {
+    background: #FF77A5; }
+  .cat-green .mega-dropdown-menu {
+    background: #00B470; }
 
 /*# sourceMappingURL=bootstrap-customized.css.map */

@@ -31,3 +31,7 @@ jQuery(document).ready(function ($) {
 //  e.stopPropagation()
 //})
 });
+
+jQuery(document).on('click', '.mega-dropdown', function(e) {
+  e.stopPropagation()
+})

@@ -3,6 +3,7 @@
         <div class="container align-items-stretch">
             <div class="collapse navbar-collapse align-items-stretch" id="navbarSupportedContent">
                 <?php include('includes/navigation/menu-dropdown.php'); ?>
+                <?php #include('mega-menu.php');?>
             </div>
         </div>
     </nav>

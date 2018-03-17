@@ -2,20 +2,15 @@
     <li class="nav-item home d-none d-lg-block">
         <a class="nav-link" href="index.php">Home</a>
     </li>
-    <li class="nav-item cat-blue dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdownEvents" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wohin?</a>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" tabindex="-1" href="template-events.php">Einstiegsseite "Wohin"</a></li>
-            <?php include('includes/navigation/dropdown.php'); ?>
-        </ul>
+    <li class="nav-item cat-blue mega-dropdown">
+        <a href="#" class=" nav-link dropdown-toggle" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Wohin <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+        <?php include('includes/navigation/mega-dropdown.php'); ?>
+
     </li>
-    <li class="nav-item cat-yellow dropdown ">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownNames" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vornamen</a>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" tabindex="-1" href="template-names.php">Einstiegsseite "Vornamen"</a></li>
-            <?php include('includes/navigation/dropdown.php'); ?>
-        </ul>
-        
+    <li class="nav-item cat-yellow mega-dropdown">
+        <a href="#" class=" nav-link dropdown-toggle" role="button" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">Vornamen <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+        <?php include('includes/navigation/mega-dropdown.php'); ?>
+
     </li>
     <li class="nav-item cat-pink dropdown ">
         <a class="nav-link dropdown-toggle" id="navbarDropdownKnowledge" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Wissen</a>
@@ -24,7 +19,7 @@
             <li><a class="dropdown-item" tabindex="-1" href="template-search-site.php" >Hebammensuche</a></li>
             <?php include('includes/navigation/dropdown.php'); ?>
         </ul>
-        
+
     </li>
     <li class="nav-item cat-green dropdown ">
         <a class="nav-link dropdown-toggle" id="navbarDropdownSlogans" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sprüche</a>
