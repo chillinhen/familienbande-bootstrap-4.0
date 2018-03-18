@@ -1,5 +1,5 @@
 <ul class="mega-dropdown-menu row">
-    <li class="subkat">
+    <li class="nav-item subkat">
         <ul>
             <li class="dropdown-header">Lorem Ipsum</li>
 <!--            <li><div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -32,7 +32,7 @@
             <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
         </ul>
     </li>
-    <li class="subkat">
+    <li class="nav-item subkat">
         <ul>
             <li class="dropdown-header">Dresses</li>
             <li><a href="#">Unique Features</a></li>
@@ -45,7 +45,7 @@
             <li><a href="#">Good Typography</a></li>
         </ul>
     </li>
-    <li class="subkat">
+    <li class="nav-item subkat">
         <ul>
             <li class="dropdown-header">Jackets</li>
             <li><a href="#">Easy to customize</a></li>
@@ -58,7 +58,7 @@
             <li><a href="#">Calls to action</a></li>
         </ul>
     </li>
-    <li class="subkat">
+    <li class="nav-item subkat">
         <ul>
             <li class="dropdown-header">Accessories</li>
             <li><a href="#">Default Navbar</a></li>

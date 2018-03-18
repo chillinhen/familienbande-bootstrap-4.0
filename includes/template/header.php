@@ -15,7 +15,6 @@
             <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <button class="search btn align-self-center order-md-2 order-lg-3 d-none d-xl-block" type="button" data-toggle="modal" data-target="#modalSearchDialog"><i class="fas fa-search"></i><span>Suche</span></button>
         </div>
     </div>
 </header>

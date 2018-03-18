@@ -1,89 +1,44 @@
-<div class="collapse navbar-collapse js-navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown mega-dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collection <span class="glyphicon glyphicon-chevron-down pull-right"></span></a>
+<ul class="nav nav-tabs" id="megaMenu" role="tablist">
+    <li class="dropdown nav-item">
+        <a class="nav-link" id="tab-home">
+            Home
+        </a>
+    </li>
+    <li class="dropdown nav-item cat-blue">
+        <a class="nav-link" id="tab-events" data-toggle="tab" href="#menu-events" role="tab" aria-controls="menu-events" aria-selected="false">
+            Wohin
+        </a>
+    </li>
+    <li class="dropdown nav-item cat-yellow">
+        <a class="nav-link" id="tab-names" data-toggle="tab" href="#menu-names" role="tab" aria-controls="menu-names" aria-selected="false">
+            Vornamen
+        </a>
+    </li>
 
-          <ul class="dropdown-menu mega-dropdown-menu row">
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">New in Stores</li>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
-                      <h4><small>Summer dress floral prints</small></h4>
-                      <button class="btn btn-primary" type="button">49,99 €</button>
-                      <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                    </div>
-                    <!-- End Item -->
-                    <div class="item">
-                      <a href="#"><img src="http://placehold.it/254x150/ef5e55/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
-                      <h4><small>Gold sandals with shiny touch</small></h4>
-                      <button class="btn btn-primary" type="button">9,99 €</button>
-                      <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                    </div>
-                    <!-- End Item -->
-                    <div class="item">
-                      <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                      <h4><small>Denin jacket stamped</small></h4>
-                      <button class="btn btn-primary" type="button">49,99 €</button>
-                      <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>
-                    </div>
-                    <!-- End Item -->
-                  </div>
-                  <!-- End Carousel Inner -->
-                </div>
-                <!-- /.carousel -->
-                <li class="divider"></li>
-                <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
-              </ul>
-            </li>
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">Dresses</li>
-                <li><a href="#">Unique Features</a></li>
-                <li><a href="#">Image Responsive</a></li>
-                <li><a href="#">Auto Carousel</a></li>
-                <li><a href="#">Newsletter Form</a></li>
-                <li><a href="#">Four columns</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Tops</li>
-                <li><a href="#">Good Typography</a></li>
-              </ul>
-            </li>
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">Jackets</li>
-                <li><a href="#">Easy to customize</a></li>
-                <li><a href="#">Glyphicons</a></li>
-                <li><a href="#">Pull Right Elements</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Pants</li>
-                <li><a href="#">Coloured Headers</a></li>
-                <li><a href="#">Primary Buttons & Default</a></li>
-                <li><a href="#">Calls to action</a></li>
-              </ul>
-            </li>
-            <li class="col-sm-3">
-              <ul>
-                <li class="dropdown-header">Accessories</li>
-                <li><a href="#">Default Navbar</a></li>
-                <li><a href="#">Lovely Fonts</a></li>
-                <li><a href="#">Responsive Dropdown </a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Newsletter</li>
-                <form class="form" role="form">
-                  <div class="form-group">
-                    <label class="sr-only" for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter email">
-                  </div>
-                  <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                </form>
-              </ul>
-            </li>
-          </ul>
-
-        </li>
-      </ul>
-
+    <li class="dropdown nav-item cat-pink">
+        <a class="nav-link" id="tab-knowledge" data-toggle="tab" href="#menu-knowledge" role="tab" aria-controls="menu-knowledge" aria-selected="false">Wissen
+        </a>
+    </li>
+    <li class="dropdown nav-item cat-green">
+        <a class="nav-link" id="tab-slogans" data-toggle="tab" href="#menu-slogans" role="tab" aria-controls="menu-slogans" aria-selected="false">
+            Sprüche
+        </a>
+    </li>
+    <li class="dropdown nav-item search">
+        <a class="nav-link" data-toggle="modal" data-target="#modalSearchDialog">Suche <i class="fas fa-search"></i></a>
+    </li>
+</ul>
+<div class="tab-content mb-5" id="megaMenuContent">
+    <div class="tab-pane px-4 pb-3 pt-5 cat-blue" id="menu-events" role="tabpanel" aria-labelledby="tab-events">
+        <?php include('includes/scratch/mega-menu-list.php'); ?>
     </div>
+    <div class="tab-pane px-4 pb-3 pt-5 cat-yellow" id="menu-names" role="tabpanel" aria-labelledby="tab-names">
+        <?php include('includes/scratch/mega-menu-list.php'); ?>
+    </div>
+    <div class="tab-pane px-4 pb-3 pt-5 cat-pink" id="menu-knowledge" role="tabpanel" aria-labelledby="tab-knowledge">
+        <?php include('includes/scratch/mega-menu-list.php'); ?>
+    </div>
+    <div class="tab-pane px-4 pb-3 pt-5 cat-green" id="menu-slogans" role="tabpanel" aria-labelledby="tab-slogans">
+        <?php include('includes/scratch/mega-menu-list.php'); ?>
+    </div>
+</div>
