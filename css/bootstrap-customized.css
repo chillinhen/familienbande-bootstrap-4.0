@@ -3502,11 +3502,12 @@ input[type="radio"] {
       -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
       -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
       box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-      border-radius: 1em; }
+      border-bottom-right-radius: 0.2rem;
+      border-bottom-left-radius: 0.2rem; }
       .dropdown-menu:before {
         content: '';
         top: -2em;
-        left: 2rem;
+        left: 1rem;
         position: absolute;
         display: block;
         width: 0px;
@@ -3517,8 +3518,8 @@ input[type="radio"] {
     .dropdown-menu.show {
       padding: 2rem 1rem 1rem 1rem;
       top: 4rem;
-      left: 0;
-      right: 0; } }
+      left: -3rem;
+      right: -3rem; } }
   @media (min-width: 768px) and (max-width: 991.98px) {
     .dropdown-menu.show {
       border: 1px solid red;
@@ -3568,46 +3569,32 @@ input[type="radio"] {
     border-color: transparent transparent white transparent; }
   .dropdown-menu.show .dropdown-header {
     color: currentColor !important; }
-  .cat-blue > .dropdown-menu.show {
+  #top-nav[class*="js-is-"] .dropdown-menu.show:before {
+    left: 3rem; }
+  .dropdown.cat-blue > .dropdown-menu.show {
     background-color: #fff !important; }
-    .cat-blue > .dropdown-menu.show:before {
+    .dropdown.cat-blue > .dropdown-menu.show:before {
       border-color: transparent transparent #fff transparent; }
-    .cat-blue > .dropdown-menu.show .dropdown-header {
+    .dropdown.cat-blue > .dropdown-menu.show .dropdown-header {
       color: #159EE5 !important; }
-    .cat-blue > .dropdown-menu.show:before {
-      left: 0; }
-  .cat-yellow > .dropdown-menu.show {
+  .dropdown.cat-yellow > .dropdown-menu.show {
     background-color: #fff !important; }
-    .cat-yellow > .dropdown-menu.show:before {
+    .dropdown.cat-yellow > .dropdown-menu.show:before {
       border-color: transparent transparent #fff transparent; }
-    .cat-yellow > .dropdown-menu.show .dropdown-header {
+    .dropdown.cat-yellow > .dropdown-menu.show .dropdown-header {
       color: #FF9A34 !important; }
-    .cat-yellow > .dropdown-menu.show:before {
-      left: 7rem; }
-  .cat-pink > .dropdown-menu.show {
+  .dropdown.cat-pink > .dropdown-menu.show {
     background-color: #fff !important; }
-    .cat-pink > .dropdown-menu.show:before {
+    .dropdown.cat-pink > .dropdown-menu.show:before {
       border-color: transparent transparent #fff transparent; }
-    .cat-pink > .dropdown-menu.show .dropdown-header {
+    .dropdown.cat-pink > .dropdown-menu.show .dropdown-header {
       color: #FF77A5 !important; }
-    .cat-pink > .dropdown-menu.show:before {
-      left: 15rem; }
-  .cat-green > .dropdown-menu.show {
+  .dropdown.cat-green > .dropdown-menu.show {
     background-color: #fff !important; }
-    .cat-green > .dropdown-menu.show:before {
+    .dropdown.cat-green > .dropdown-menu.show:before {
       border-color: transparent transparent #fff transparent; }
-    .cat-green > .dropdown-menu.show .dropdown-header {
+    .dropdown.cat-green > .dropdown-menu.show .dropdown-header {
       color: #00B470 !important; }
-    .cat-green > .dropdown-menu.show:before {
-      left: 21rem; }
-  .cat-blue [class*="js-is-"] .dropdown-menu.show:before {
-    left: 13rem; }
-  .cat-yellow [class*="js-is-"] .dropdown-menu.show:before {
-    left: 19rem; }
-  .cat-pink [class*="js-is-"] .dropdown-menu.show:before {
-    left: 27rem; }
-  .cat-green [class*="js-is-"] .dropdown-menu.show:before {
-    left: 34rem; }
 
 .dropdown-header {
   display: block;
@@ -7902,8 +7889,8 @@ table.table {
     background: white; } }
 
 #top-bar {
-  margin-right: -15px;
-  margin-left: -15px;
+  /*    margin-right: -15px;
+      margin-left: -15px;*/
   margin-bottom: 1rem; }
 
 body#home .hero, body#names .hero {
@@ -7966,7 +7953,7 @@ body:not(#home) .hero .row {
     #top-nav:after {
       content: '';
       height: 0.3rem;
-      margin: 0 0 2em 0;
+      margin: 0 0 0 0;
       width: 100%;
       display: block;
       background: linear-gradient(to right, #159EE5 0%, #159EE5 25%, #FF9A34 25%, #FF9A34 50%, #FF77A5 50%, #FF77A5 75%, #00B470 75%, #00B470 100%); } }
