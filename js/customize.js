@@ -17,6 +17,12 @@ jQuery(document).ready(function ($) {
     }
     stickybits('.fixedsticky', {useStickyClasses: true});
     $(window).bind("resize", resizeWindow);
+    
+    $('.dropdown-header').on("click", function (e) {
+        $(this).next('ul').toggleClass('show');
+        e.stopPropagation();
+        e.preventDefault();
+    });
 
 //    $('#megaMenu > li > a').hover(function () {
 //        $(this).tab('show');

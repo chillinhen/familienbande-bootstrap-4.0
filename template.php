@@ -2,6 +2,7 @@
 <body id="all" class="cat-blue">
     <?php include('includes/template/header.php'); ?>
     <?php include('includes/navigation/top-nav.php'); ?>
+    
 <!--    <div class="hero">
         <div class="container">
             <div class="row align-items-end">
@@ -17,9 +18,11 @@
                 <div class="col-lg-4 sidebar order-lg-2">
                     <aside id="infoblock" class="fixedsticky">
                         <?php include('includes/template/sidebar.php'); ?>
+                        
                     </aside>
                 </div>
                 <div class="col-lg-8 content order-lg-1"> 
+                    
                     <?php include('includes/content/content-dummy.php'); ?>
                 </div>
             </div>

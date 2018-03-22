@@ -1,6 +1,6 @@
 <div class="card card-default box-shadow">
     <div class="card-img-top card-zoom">
-        <img class="card-img-top" src="https://picsum.photos/300/200/?random" alt="Card image cap">
+        <img class="card-img-top" src="img/stromsparen.jpg" alt="Card image cap">
     </div>
 
     <div class="card-body">
