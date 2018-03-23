@@ -43,10 +43,14 @@
         <div class="sub-cat-02">
             <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
             <ul>
-                <li>Lorem ipsum dolor</li>
-                <li><a>Aenean commodo ligula eget dolor.</a></li>
-                <li><a>Aenean massa cum sociis natoque penatibus.</a></li>
-                <li><a>Li Europan lingues es membres del sam familie.</a></li>
+                <li><a href="template-events.php">Einstiegseite "Wohin?"</a></li>
+                <li><a href="template-names.php">Einstiegseite "Vornamen?"</a></li>
+                <li><a href="template-knowledge.php">Einstiegseite "Wissen?"</a></li>
+                <li><a href="template-slogans.php">Einstiegseite "Sprüche?"</a></li>
+                <li><a href="template-search-site.php">Seite Suchformular</a></li>
+                <li><a href="template-profile.php">Hebammenprofil</a></li>
+                <li><a href="template-detail.php">Artikel Detailsseite</a></li>
+                <li><a href="template.php">alle Elemente</a></li>
             </ul>
             <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
             <ul>

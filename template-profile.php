@@ -12,6 +12,12 @@
                 </div>
                 <div class="col-lg-8 content order-lg-1"> 
                     <?php include('includes/content/content-profile.php'); ?>
+                    <h2>Weitere Profile/ Listenansicht</h2>
+                     <?php include('includes/cards/list-item.php'); ?>
+                    <?php include('includes/cards/list-item.php'); ?>
+                    <?php include('includes/cards/list-item.php'); ?>
+                    <?php include('includes/cards/list-item.php'); ?>
+                    <?php include('includes/cards/list-item.php'); ?>
                 </div>
             </div>
         </div>

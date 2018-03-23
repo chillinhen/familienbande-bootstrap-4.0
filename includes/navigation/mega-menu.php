@@ -1,4 +1,4 @@
-<ul class="navbar-nav mr-auto">
+<ul class="navbar-nav">
       <li class="nav-item home">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -24,4 +24,7 @@
         </a>
         <?php include('includes/navigation/mega-menu-list.php'); ?>
       </li>
+      <li class="nav-item search">
+        <a class="nav-link" data-toggle="modal" data-target="#modalSearchDialog">Suche <i class="fas fa-search"></i></a>
+    </li>
     </ul>

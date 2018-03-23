@@ -1,10 +1,11 @@
-<div class="card profile">
-    <div class="card-body d-lg-flex justify-content-between align-items-start">
+<div class="card profile list-item my-3">
+    <div class="card-body d-lg-flex justify-content-between align-items-center">
         <img class="rounded-circle profile-img" src="img/random-user_imageF8.jpg" alt="Profile">
         <div class="card-content">  
             <div class="d-lg-flex justify-content-between align-items-start">
+                
                 <address>
-                    <h2 class="card-title">Hebamme Liesa-Marie Lengersdorf</h2>
+                    <h3 class="card-title">Hebamme Liesa-Marie Lengersdorf</h3>
                     <strong>Geburtshaus</strong><br>
                     Musterstrasse 123<br>
                     12345 Musterstadt<br>  
@@ -17,8 +18,5 @@
             </div>
         </div>
         
-    </div>
-    <div class="card-body">
-        <?php include('includes/modules/profile-tabs.php'); ?>
     </div>
 </div>

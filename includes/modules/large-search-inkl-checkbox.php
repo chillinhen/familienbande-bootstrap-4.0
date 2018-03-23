@@ -3,7 +3,7 @@
 <p>Lorem ipsum Anleitung dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.<br>
 
     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
-<form>
+<form class="simpleContentSearch">
     <div class="form-group">
         <div class="input-group align-items-center">
             <label for="location">
