@@ -1,9 +1,9 @@
 <div class="card profile">
-    <div class="card-body d-lg-flex justify-content-between align-items-start">
+    <div class="card-body d-md-flex justify-content-between align-items-start">
         <img class="rounded-circle profile-img" src="img/random-user_imageF8.jpg" alt="Profile">
         <div class="card-content">  
             <div class="d-lg-flex justify-content-between align-items-start">
-                <address>
+                <address class="mx-md-3">
                     <h2 class="card-title">Hebamme Liesa-Marie Lengersdorf</h2>
                     <strong>Geburtshaus</strong><br>
                     Musterstrasse 123<br>

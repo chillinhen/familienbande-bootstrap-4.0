@@ -22,14 +22,12 @@
                 <?php include('includes/content/content-index.php'); ?>
             </div>
         </div>
-        <div class="row mb-5 pb-5">
-            <div class="col-sm-10 offset-1 text-center">
+        <div class="mb-5 pb-5">
+            <div class="col-10 offset-1 text-center">
                 <h2>Weitere Artikel</h2>
                 <?php include('includes/modules/carousel-width-cards.php'); ?>
             </div>
         </div>
     </main>
     <?php
-    include('includes/template/footer.php');
-    include('includes/modal-overlays/modal-search-dialog.php');
-    ?>
+    include('includes/template/footer.php');?>

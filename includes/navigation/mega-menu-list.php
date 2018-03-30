@@ -1,7 +1,7 @@
 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <div class="sub-cats">
         <div class="sub-cat-01">
-            <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
+            <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
             <ul>
                 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing 
                     elit. Aenean commodo ligula eget dolor. Aenean massa.</li>
@@ -41,7 +41,7 @@
             </ul>
         </div>
         <div class="sub-cat-02">
-            <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
+            <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
             <ul>
                 <li><a href="template-events.php">Einstiegseite "Wohin?"</a></li>
                 <li><a href="template-names.php">Einstiegseite "Vornamen?"</a></li>
@@ -52,7 +52,7 @@
                 <li><a href="template-detail.php">Artikel Detailsseite</a></li>
                 <li><a href="template.php">alle Elemente</a></li>
             </ul>
-            <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
+            <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
             <ul>
                 <li>Consequat massa</li>
                 <li><a>Lor separat existentie es un myth.</a></li>
@@ -61,7 +61,7 @@
             </ul>
         </div>
         <div class="sub-cat-03">
-            <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
+            <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
             <ul>
                 <li><a>Aenean massa.</a></li>
                 <li><a>Cum sociis natoque penatibus</a></li>
@@ -69,7 +69,7 @@
                 <li><a>Donec pede justo vulputate</a></li>
                 <li><a>In enim justo, rhoncus ut</a></li>
             </ul>
-            <h5 class="dropdown-header">Nette Kategorieüberschrift</h5>
+            <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
             <ul>
                 <li>Consequat massa</li>
                 <li><a>Lor separat existentie es un myth.</a></li>

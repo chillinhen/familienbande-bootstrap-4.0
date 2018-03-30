@@ -1,6 +1,6 @@
 <div class="card card-default box-shadow">
     <div class="card-zoom">
-        <img class="card-img-top" src="img/tech.jpg" alt="Card image cap">
+        <img class="card-img-top img-fluid" src="img/tech.jpg" alt="Card image cap">
     </div>
 
     <div class="card-body">

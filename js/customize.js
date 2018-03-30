@@ -7,7 +7,6 @@ jQuery(document).ready(function ($) {
 
         // If width width is below 600px, switch to the mobile stylesheet
         if (newWindowWidth < 576) {
-            //alert('hallo');
             $('#top-nav').removeClass('fixedsticky');
         }
         if (newWindowWidth > 426) {
@@ -15,6 +14,7 @@ jQuery(document).ready(function ($) {
         }
 
     }
+    $('.carousel').carousel();
     stickybits('.fixedsticky', {useStickyClasses: true});
     $(window).bind("resize", resizeWindow);
     
@@ -24,15 +24,4 @@ jQuery(document).ready(function ($) {
         e.preventDefault();
     });
 
-//    $('#megaMenu > li > a').hover(function () {
-//        $(this).tab('show');
-//        $('#megaMenuContent').removeClass('hide');
-//    }, function () {
-//    });
-//
-//    $('#megaMenu').mouseleave(function () {
-//
-//        $('#megaMenuContent').addClass('hide');
-//        $('#megaMenu > li').removeClass('active');
-//    });
 });
