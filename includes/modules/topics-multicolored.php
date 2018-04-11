@@ -1,4 +1,4 @@
-<div id="topicsBlock" class="d-flex flex-column flex-md-row">
+<div id="topicsBlock" class="row flex-column flex-md-row">
     <div class="colxs-6 col-sm-3 cat-blue"><?php include('includes/elements/block-event.php'); ?></div>
     <div class="colxs-6 col-sm-3 cat-yellow"><?php include('includes/elements/block-name.php'); ?></div>
     <div class="colxs-6 col-sm-3 cat-pink"><?php include('includes/elements/block-knowledge.php'); ?></div>

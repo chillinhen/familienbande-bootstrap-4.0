@@ -16,11 +16,9 @@
             </div>
         </div>
     </div>
-    <main class="main-content">
+    <main>
         <div class="container">
-            <div class="row">
                 <?php include('includes/content/content-index.php'); ?>
-            </div>
         </div>
         <div class="mb-5 pb-5">
             <div class="col-10 offset-1 text-center">

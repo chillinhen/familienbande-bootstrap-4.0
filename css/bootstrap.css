@@ -12568,7 +12568,7 @@ body#events .hero {
   /* line 42, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
   .hero {
     margin-top: 70px;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -12713,98 +12713,101 @@ body:not(#home) .hero .row {
 }
 
 /*==================================================*/
-@media (min-width: 768px) {
-  /* line 131, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  main.main-content {
-    margin-top: 10vH;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 135, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  main.main-content .content > .row {
-    margin-bottom: 5rem;
-  }
-}
-
-/*** Sidebar ***/
-/* line 142, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock {
-  transition: all 400ms ease-out;
-}
-
-/* line 144, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"] {
-  margin: 0 0 1px 0;
-  padding: 1em .5em;
-}
-
-/* line 147, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"]:hover, #infoblock [id*="btn"]:focus {
-  cursor: pointer;
-}
-
-/* line 151, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"][class*="cat"] {
+/* line 135, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer *, #footer *:hover {
   color: white;
 }
 
-/* line 155, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"].cat-blue {
-  background: #159EE5;
+/* line 137, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer .logo {
+  min-height: 150px;
+  text-indent: -99999px;
+  background: transparent url(../img/logo-white.png) no-repeat center center/contain;
 }
 
-/* line 158, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"].cat-yellow {
-  background: #FF9A34;
+/* line 139, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+.no-svg #footer .logo {
+  background-image: url(../img/logo-white.png);
 }
 
-/* line 161, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"].cat-pink {
-  background: #FF77A5;
+/* line 143, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer .footer-lists {
+  background: #495f7f;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #495f7f 0%, #333d48 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #495f7f), color-stop(100%, #333d48));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #495f7f 0%, #333d48 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #495f7f 0%, #333d48 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #495f7f 0%, #333d48 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #495f7f 0%, #333d48 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+  /* IE6-9 */
 }
 
-/* line 164, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#infoblock [id*="btn"].cat-green {
-  background: #00B470;
+@media (max-width: 575.98px) {
+  /* line 145, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+  #footer .footer-lists [class*="col"] {
+    margin-bottom: 1rem;
+  }
 }
 
-@media (min-width: 992px) {
-  /* line 168, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #infoblock [id*="collapse"] {
-    display: block;
+/* line 151, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer .footer-bottom {
+  background: #2d353f;
+}
+
+@media (max-width: 575.98px) {
+  /* line 153, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+  #footer .footer-bottom [class*="col"] {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 158, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+  #footer .footer-bottom [class*="col"][class*="footer-"] {
+    font-size: 1.2rem;
+  }
+}
+
+/* line 165, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer .footer-meta-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 169, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer .footer-meta-menu li {
+  /*                @media screen and (max-width:1023px){*/
+}
+
+@media (max-width: 991.98px) {
+  /* line 169, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+  #footer .footer-meta-menu li {
+    list-style: none;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 172, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #infoblock[class*="js-is-"] {
-    top: 100px !important;
+  /* line 175, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+  #footer .footer-meta-menu li a {
+    padding: 0 3em 0 1em;
+  }
+  /* line 178, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+  #footer .footer-meta-menu li:first-child {
+    list-style: none;
   }
 }
 
-@media (max-width: 991.98px) {
-  /* line 142, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #infoblock {
-    margin: 1em 0;
-    border-top-left-radius: 1.2em;
-    border-top-right-radius: 1.2em;
-    border-bottom-right-radius: 1.2em;
-    border-bottom-left-radius: 1.2em;
-    overflow: hidden;
-  }
-}
-
-@media (max-width: 575.98px) {
-  /* line 181, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #infoblock[class*="js-is-"] {
-    /*            position:fixed !important;
-            top:60px !important;
-            left:0;
-            right:0;
-            background:white;
-            z-index:999;*/
-  }
+/* line 185, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
+#footer .footer-links a {
+  margin-right: .5rem;
 }
 
 /* line 2, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_temp.scss */
@@ -13071,11 +13074,96 @@ body[class*="cat"] .parallax {
 }
 
 /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
-.card[class*="Search"],
-.main-content {
+.card[class*="Search"] {
   display: none;
 }
 
 /*==================================================*/
+@media (min-width: 768px) {
+  /* line 5, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+  body > main {
+    margin-top: 6.25rem;
+  }
+}
+
+/*** Sidebar ***/
+/* line 9, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock {
+  transition: all 400ms ease-out;
+}
+
+/* line 11, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"] {
+  margin: 0 0 1px 0;
+  padding: 1em .5em;
+}
+
+/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"]:hover, #infoblock [id*="btn"]:focus {
+  cursor: pointer;
+}
+
+/* line 18, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"][class*="cat"] {
+  color: white;
+}
+
+/* line 22, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"].cat-blue {
+  background: #159EE5;
+}
+
+/* line 25, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"].cat-yellow {
+  background: #FF9A34;
+}
+
+/* line 28, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"].cat-pink {
+  background: #FF77A5;
+}
+
+/* line 31, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+#infoblock [id*="btn"].cat-green {
+  background: #00B470;
+}
+
+@media (min-width: 992px) {
+  /* line 35, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+  #infoblock [id*="collapse"] {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 39, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+  #infoblock[class*="js-is-"] {
+    top: 100px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  /* line 9, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+  #infoblock {
+    margin: 1em 0;
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* line 48, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_shame.scss */
+  #infoblock[class*="js-is-"] {
+    position: fixed !important;
+    top: 60px !important;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 999;
+  }
+}
 
 /*# sourceMappingURL=../../../css/bootstrap.map */
