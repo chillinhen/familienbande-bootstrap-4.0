@@ -37,12 +37,13 @@
                         </a>
                     </div>
                 </li>
-                <li><a href="template-detail.php" class="btn btn-primary">Go somewhere</a></li>
+                <li><a href="template-detail.php" class="btn btn-theme">Go somewhere</a></li>
             </ul>
         </div>
         <div class="sub-cat-02">
             <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
-            <ul>
+            <div class="d-flex justify-content-between">
+            <ul class="mr-3">
                 <li><a href="template-events.php">Einstiegseite "Wohin?"</a></li>
                 <li><a href="template-names.php">Einstiegseite "Vornamen?"</a></li>
                 <li><a href="template-knowledge.php">Einstiegseite "Wissen?"</a></li>
@@ -52,13 +53,14 @@
                 <li><a href="template-detail.php">Artikel Detailsseite</a></li>
                 <li><a href="template.php">alle Elemente</a></li>
             </ul>
-            <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
+            
             <ul>
-                <li>Consequat massa</li>
+                <li><a>Consequat massa</a></li>
                 <li><a>Lor separat existentie es un myth.</a></li>
                 <li><a>Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</a></li>
                 <li><a>Li lingues differe solmen in</a></li>
             </ul>
+           </div>
         </div>
         <div class="sub-cat-03">
             <h5 class="dropdown-header dropdown-toggle">Nette Kategorieüberschrift</h5>
