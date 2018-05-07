@@ -23,5 +23,12 @@ jQuery(document).ready(function ($) {
         e.stopPropagation();
         e.preventDefault();
     });
+    
+        $('[class*="sub-cat-"] > div').each(function(){
+        if($(this).hasClass('d-flex')){
+            console.log("Found");
+           $(this).parent('div').addClass('sub-cat-large');
+        }
+    });
 
 });
