@@ -1,6 +1,6 @@
 <header id="header">
     <div id="top-bar">
-        <div class="d-flex align-items-center justify-content-around container-fluid">
+        <div class="d-flex justify-content-md-center justify-content-lg-between container-fluid">
             <!--        <div class="row d-flex justify-content-around ">-->
             <!--        <div class="row justify-content-around justify-content-lg-center flex-md-row flex-sm-column">-->
             <a class="navbar-brand bg-image" href="index.php">
