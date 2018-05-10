@@ -10,9 +10,9 @@
                     12345 Musterstadt<br>  
                 </address>
                 <div class="btn-group-vertical" role="group" aria-label="contact options">
-                    <a href="tel:0123456789"  class="btn text-left"><i class="fas fa-phone"></i> 0123 - 456789</a>
-                    <a href="tel:015712344567"  class="btn text-left"><i class="fas fa-mobile-alt"></i> 0157/12344567</a>
-                    <a href="#"  class="btn text-left"><i class="fas fa-envelope"></i> Kontakt aufnehmen</a>
+                    <a href="tel:0123456789"  class="btn btn-cat text-left"><i class="fas fa-phone"></i> 0123 - 456789</a>
+                    <a href="tel:015712344567"  class="btn btn-cat text-left"><i class="fas fa-mobile-alt"></i> 0157/12344567</a>
+                    <a href="#"  class="btn btn-cat text-left"><i class="fas fa-envelope"></i> Kontakt aufnehmen</a>
                 </div>
             </div>
         </div>

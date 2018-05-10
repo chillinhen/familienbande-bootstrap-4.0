@@ -21,7 +21,7 @@
                         
                     </aside>
                 </div>
-                <div class="col-lg-8 content order-lg-1"> 
+                <div class="col-lg-8 content order-lg-1 pr-lg-5"> 
                     
                     <?php include('includes/content/content-dummy.php'); ?>
                 </div>

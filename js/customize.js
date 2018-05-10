@@ -26,7 +26,7 @@ jQuery(document).ready(function ($) {
     
         $('[class*="sub-cat-"] > div').each(function(){
         if($(this).hasClass('d-flex')){
-            console.log("Found");
+            //console.log("Found");
            $(this).parent('div').addClass('sub-cat-large');
         }
     });
