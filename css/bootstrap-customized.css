@@ -23,6 +23,71 @@
 /*$dropdown-padding-y:             0;*/
 /*$card-bg:                        white;*/
 /*$btn-border-radius:           $border-radius !default;*/
+/* For each key in the map, created an own class */
+/* line 12, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-blue .largeDoubleSearch {
+  background-color: rgba(21, 158, 229, 0.9);
+}
+
+/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-blue .largeDoubleSearch {
+  color: white;
+}
+
+/* line 16, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-blue .largeDoubleSearch .btn {
+  color: #159EE5 !important;
+  background-color: #fafdff;
+}
+
+/* line 12, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-pink .largeDoubleSearch {
+  background-color: rgba(255, 119, 165, 0.9);
+}
+
+/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-pink .largeDoubleSearch {
+  color: white;
+}
+
+/* line 16, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-pink .largeDoubleSearch .btn {
+  color: #FF77A5 !important;
+  background-color: white;
+}
+
+/* line 12, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-yellow .largeDoubleSearch {
+  background-color: rgba(255, 154, 52, 0.9);
+}
+
+/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-yellow .largeDoubleSearch {
+  color: white;
+}
+
+/* line 16, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-yellow .largeDoubleSearch .btn {
+  color: #FF9A34 !important;
+  background-color: white;
+}
+
+/* line 12, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-green .largeDoubleSearch {
+  background-color: rgba(0, 180, 112, 0.9);
+}
+
+/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-green .largeDoubleSearch {
+  color: white;
+}
+
+/* line 16, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_colors.scss */
+body.cat-green .largeDoubleSearch .btn {
+  color: #00B470 !important;
+  background-color: #b4ffe3;
+}
+
 /*@import "customs/colors";*/
 /* line 21, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_reboot.scss */
 *,
@@ -13163,4 +13228,4 @@ body[class*="cat"] .parallax {
   overflow: hidden;
 }
 
-/*# sourceMappingURL=../../../css/bootstrap.map */
+/*# sourceMappingURL=../../../css/bootstrap-customized.map */

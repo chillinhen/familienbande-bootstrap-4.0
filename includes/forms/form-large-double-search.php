@@ -13,7 +13,7 @@
             </div>
             <div class="form-group cat-yellow">
                 <button type="submit" class="btn align-self-center">
-                    <span>Suche </span><i class="fas fa-search"></i>
+                    <span>Suche </span><i class="fa fa-search"></i>
                 </button>
             </div>
             </div>

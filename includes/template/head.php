@@ -17,9 +17,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
             
         <!-- fontawesome -->
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!--        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">-->
+ <link rel="stylesheet" href="css/font-awesome.min.css" media="screen">
+
+
 <!--        <link rel="stylesheet" href="css/screen.css" media="all">-->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap-customized.css" rel="stylesheet" type="text/css"/>
         <title>Familienbande24 - alles zu Vornamen, Schwangerschaft, Geburt und Kinder</title>
     </head>
     
