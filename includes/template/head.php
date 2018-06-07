@@ -23,6 +23,7 @@
 
 <!--        <link rel="stylesheet" href="css/screen.css" media="all">-->
 <link href="css/bootstrap-customized.css" rel="stylesheet" type="text/css"/>
+<!--<link href="css/sidebar.css" rel="stylesheet" type="text/css"/>-->
 <script src="js/fontawesome-all.js"></script>
         <title>Familienbande24 - alles zu Vornamen, Schwangerschaft, Geburt und Kinder</title>
     </head>

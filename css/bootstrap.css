@@ -50,12 +50,7 @@ body {
   line-height: 1.5;
   color: #333;
   text-align: left;
-<<<<<<< Updated upstream
-  background-color: #FAFAFA;
-}
-=======
-  background-color: #fff; }
->>>>>>> Stashed changes
+  background-color: #FAFAFA; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -71,12 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-<<<<<<< Updated upstream
-  margin-bottom: 1.4rem;
-}
-=======
-  margin-bottom: 1rem; }
->>>>>>> Stashed changes
+  margin-bottom: 1.4rem; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -298,42 +288,19 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-<<<<<<< Updated upstream
   font-family: "Lato", Arial, sans-serif;
   font-weight: 600;
   line-height: 1.1;
-  color: inherit;
-}
-=======
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.2;
   color: inherit; }
->>>>>>> Stashed changes
 
 h1, .h1 {
-<<<<<<< Updated upstream
-  font-size: 2.4rem;
-}
-=======
-  font-size: 2.5rem; }
->>>>>>> Stashed changes
+  font-size: 2.4rem; }
 
 h2, .h2 {
-<<<<<<< Updated upstream
-  font-size: 1.6rem;
-}
-=======
-  font-size: 2rem; }
->>>>>>> Stashed changes
+  font-size: 1.6rem; }
 
 h3, .h3 {
-<<<<<<< Updated upstream
-  font-size: 1.5rem;
-}
-=======
-  font-size: 1.75rem; }
->>>>>>> Stashed changes
+  font-size: 1.5rem; }
 
 h4, .h4 {
   font-size: 1.5rem; }
@@ -453,23 +420,11 @@ kbd {
   font-size: 87.5%;
   color: #fff;
   background-color: #212529;
-<<<<<<< Updated upstream
-  border-radius: 1em;
-}
-
-/* line 30, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_code.scss */
-kbd kbd {
-  padding: 0;
-  font-size: 100%;
-  font-weight: 700;
-}
-=======
-  border-radius: 0.2rem; }
+  border-radius: 1em; }
   kbd kbd {
     padding: 0;
     font-size: 100%;
     font-weight: 700; }
->>>>>>> Stashed changes
 
 pre {
   display: block;
@@ -1232,34 +1187,6 @@ pre {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
-<<<<<<< Updated upstream
-  background-color: transparent;
-}
-
-/* line 11, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_tables.scss */
-.table th,
-.table td {
-  padding: 0.75rem;
-  vertical-align: top;
-  border-top: 1px solid #dee2e6;
-}
-
-/* line 18, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_tables.scss */
-.table thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #dee2e6;
-}
-
-/* line 23, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_tables.scss */
-.table tbody + tbody {
-  border-top: 2px solid #dee2e6;
-}
-
-/* line 27, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_tables.scss */
-.table .table {
-  background-color: #FAFAFA;
-}
-=======
   background-color: transparent; }
   .table th,
   .table td {
@@ -1272,8 +1199,7 @@ pre {
   .table tbody + tbody {
     border-top: 2px solid #dee2e6; }
   .table .table {
-    background-color: #fff; }
->>>>>>> Stashed changes
+    background-color: #FAFAFA; }
 
 .table-sm th,
 .table-sm td {
@@ -1297,85 +1223,35 @@ pre {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-<<<<<<< Updated upstream
-  background-color: #ecedef;
-}
-=======
-  background-color: #e6f2ff; }
->>>>>>> Stashed changes
+  background-color: #ecedef; }
 
 .table-hover .table-primary:hover {
-<<<<<<< Updated upstream
-  background-color: #dee0e3;
-}
-
-/* line 23, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_table-row.scss */
-.table-hover .table-primary:hover > td,
-.table-hover .table-primary:hover > th {
-  background-color: #dee0e3;
-}
-=======
-  background-color: #cde5ff; }
+  background-color: #dee0e3; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #cde5ff; }
->>>>>>> Stashed changes
+    background-color: #dee0e3; }
 
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-<<<<<<< Updated upstream
-  background-color: #fff1f6;
-}
-=======
-  background-color: #f0f1f2; }
->>>>>>> Stashed changes
+  background-color: #fff1f6; }
 
 .table-hover .table-secondary:hover {
-<<<<<<< Updated upstream
-  background-color: #ffd8e6;
-}
-
-/* line 23, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_table-row.scss */
-.table-hover .table-secondary:hover > td,
-.table-hover .table-secondary:hover > th {
-  background-color: #ffd8e6;
-}
-
-/* line 7, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_table-row.scss */
-.table-success,
-.table-success > th,
-.table-success > td {
-  background-color: #e6f8f1;
-}
-=======
-  background-color: #e2e4e6; }
+  background-color: #ffd8e6; }
   .table-hover .table-secondary:hover > td,
   .table-hover .table-secondary:hover > th {
-    background-color: #e2e4e6; }
+    background-color: #ffd8e6; }
 
 .table-success,
 .table-success > th,
 .table-success > td {
-  background-color: #eaf6ec; }
->>>>>>> Stashed changes
+  background-color: #e6f8f1; }
 
 .table-hover .table-success:hover {
-<<<<<<< Updated upstream
-  background-color: #d2f2e6;
-}
-
-/* line 23, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_table-row.scss */
-.table-hover .table-success:hover > td,
-.table-hover .table-success:hover > th {
-  background-color: #d2f2e6;
-}
-=======
-  background-color: #d8eedc; }
+  background-color: #d2f2e6; }
   .table-hover .table-success:hover > td,
   .table-hover .table-success:hover > th {
-    background-color: #d8eedc; }
->>>>>>> Stashed changes
+    background-color: #d2f2e6; }
 
 .table-info,
 .table-info > th,
@@ -1726,12 +1602,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .was-validated .custom-control-input:valid:checked ~ .custom-control-label::before, .custom-control-input.is-valid:checked ~ .custom-control-label::before {
   background-color: #34ce57; }
 .was-validated .custom-control-input:valid:focus ~ .custom-control-label::before, .custom-control-input.is-valid:focus ~ .custom-control-label::before {
-<<<<<<< Updated upstream
-  box-shadow: 0 0 0 1px #FAFAFA, 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
-}
-=======
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }
->>>>>>> Stashed changes
+  box-shadow: 0 0 0 1px #FAFAFA, 0 0 0 0.2rem rgba(40, 167, 69, 0.25); }
 
 .was-validated .custom-file-input:valid ~ .custom-file-label, .custom-file-input.is-valid ~ .custom-file-label {
   border-color: #28a745; }
@@ -1802,12 +1673,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .was-validated .custom-control-input:invalid:checked ~ .custom-control-label::before, .custom-control-input.is-invalid:checked ~ .custom-control-label::before {
   background-color: #e4606d; }
 .was-validated .custom-control-input:invalid:focus ~ .custom-control-label::before, .custom-control-input.is-invalid:focus ~ .custom-control-label::before {
-<<<<<<< Updated upstream
-  box-shadow: 0 0 0 1px #FAFAFA, 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
-}
-=======
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
->>>>>>> Stashed changes
+  box-shadow: 0 0 0 1px #FAFAFA, 0 0 0 0.2rem rgba(220, 53, 69, 0.25); }
 
 .was-validated .custom-file-input:invalid ~ .custom-file-label, .custom-file-input.is-invalid ~ .custom-file-label {
   border-color: #dc3545; }
@@ -1894,187 +1760,67 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-<<<<<<< Updated upstream
   background-color: #404c5a;
-  border-color: #404c5a;
-}
-
-/* line 15, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.btn-primary:hover {
-  color: #fff;
-  background-color: #303944;
-  border-color: #2b333c;
-}
-
-/* line 18, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-primary:focus, .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5);
-}
-
-/* line 29, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-primary.disabled, .btn-primary:disabled {
-  color: #fff;
-  background-color: #404c5a;
-  border-color: #404c5a;
-}
-
-/* line 36, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #2b333c;
-  border-color: #262d35;
-}
-
-/* line 46, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5);
-}
-
-/* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_buttons.scss */
-.btn-secondary {
-  color: #212529;
-  background-color: #FF77A5;
-  border-color: #FF77A5;
-}
-
-/* line 15, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.btn-secondary:hover {
-  color: #fff;
-  background-color: #ff518c;
-  border-color: #ff4483;
-}
-
-/* line 18, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-secondary:focus, .btn-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5);
-}
-
-/* line 29, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-secondary.disabled, .btn-secondary:disabled {
-  color: #212529;
-  background-color: #FF77A5;
-  border-color: #FF77A5;
-}
-
-/* line 36, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
-.show > .btn-secondary.dropdown-toggle {
-  color: #fff;
-  background-color: #ff4483;
-  border-color: #ff377b;
-}
-
-/* line 46, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5);
-}
-=======
-  background-color: #007bff;
-  border-color: #007bff; }
+  border-color: #404c5a; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc; }
+    background-color: #303944;
+    border-color: #2b333c; }
   .btn-primary:focus, .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    background-color: #404c5a;
+    border-color: #404c5a; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0062cc;
-    border-color: #005cbf; }
+    background-color: #2b333c;
+    border-color: #262d35; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5); }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d; }
+  color: #212529;
+  background-color: #FF77A5;
+  border-color: #FF77A5; }
   .btn-secondary:hover {
     color: #fff;
-    background-color: #5a6268;
-    border-color: #545b62; }
+    background-color: #ff518c;
+    border-color: #ff4483; }
   .btn-secondary:focus, .btn-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d; }
+    color: #212529;
+    background-color: #FF77A5;
+    border-color: #FF77A5; }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #545b62;
-    border-color: #4e555b; }
+    background-color: #ff4483;
+    border-color: #ff377b; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); }
->>>>>>> Stashed changes
+      box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5); }
 
 .btn-success {
   color: #fff;
-<<<<<<< Updated upstream
   background-color: #00B470;
-  border-color: #00B470;
-}
-
-/* line 15, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.btn-success:hover {
-  color: #fff;
-  background-color: #008e58;
-  border-color: #008150;
-}
-
-/* line 18, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-success:focus, .btn-success.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5);
-}
-
-/* line 29, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-success.disabled, .btn-success:disabled {
-  color: #fff;
-  background-color: #00B470;
-  border-color: #00B470;
-}
-
-/* line 36, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
-.show > .btn-success.dropdown-toggle {
-  color: #fff;
-  background-color: #008150;
-  border-color: #007448;
-}
-
-/* line 46, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
-.show > .btn-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5);
-}
-
-/* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_buttons.scss */
-=======
-  background-color: #28a745;
-  border-color: #28a745; }
+  border-color: #00B470; }
   .btn-success:hover {
     color: #fff;
-    background-color: #218838;
-    border-color: #1e7e34; }
+    background-color: #008e58;
+    border-color: #008150; }
   .btn-success:focus, .btn-success.focus {
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5); }
   .btn-success.disabled, .btn-success:disabled {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745; }
+    background-color: #00B470;
+    border-color: #00B470; }
   .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #1e7e34;
-    border-color: #1c7430; }
+    background-color: #008150;
+    border-color: #007448; }
     .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus, .show > .btn-success.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5); }
 
->>>>>>> Stashed changes
 .btn-info {
   color: #fff;
   background-color: #17a2b8;
@@ -2184,182 +1930,65 @@ fieldset:disabled a.btn {
   color: #404c5a;
   background-color: transparent;
   background-image: none;
-<<<<<<< Updated upstream
-  border-color: #404c5a;
-}
-
-/* line 63, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-primary:hover {
-  color: #fff;
-  background-color: #404c5a;
-  border-color: #404c5a;
-}
-
-/* line 69, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5);
-}
-
-/* line 74, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #404c5a;
-  background-color: transparent;
-}
-
-/* line 80, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
-.show > .btn-outline-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #404c5a;
-  border-color: #404c5a;
-}
-
-/* line 87, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5);
-}
-
-/* line 70, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_buttons.scss */
-=======
-  border-color: #007bff; }
+  border-color: #404c5a; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    background-color: #404c5a;
+    border-color: #404c5a; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #007bff;
+    color: #404c5a;
     background-color: transparent; }
   .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff; }
+    background-color: #404c5a;
+    border-color: #404c5a; }
     .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(64, 76, 90, 0.5); }
 
->>>>>>> Stashed changes
 .btn-outline-secondary {
   color: #FF77A5;
   background-color: transparent;
   background-image: none;
-<<<<<<< Updated upstream
-  border-color: #FF77A5;
-}
-
-/* line 63, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-secondary:hover {
-  color: #212529;
-  background-color: #FF77A5;
-  border-color: #FF77A5;
-}
-
-/* line 69, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5);
-}
-
-/* line 74, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #FF77A5;
-  background-color: transparent;
-}
-
-/* line 80, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
-.show > .btn-outline-secondary.dropdown-toggle {
-  color: #212529;
-  background-color: #FF77A5;
-  border-color: #FF77A5;
-}
-
-/* line 87, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5);
-}
-
-/* line 70, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_buttons.scss */
-=======
-  border-color: #6c757d; }
+  border-color: #FF77A5; }
   .btn-outline-secondary:hover {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d; }
+    color: #212529;
+    background-color: #FF77A5;
+    border-color: #FF77A5; }
   .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5); }
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-    color: #6c757d;
+    color: #FF77A5;
     background-color: transparent; }
   .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d; }
+    color: #212529;
+    background-color: #FF77A5;
+    border-color: #FF77A5; }
     .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(255, 119, 165, 0.5); }
 
->>>>>>> Stashed changes
 .btn-outline-success {
   color: #00B470;
   background-color: transparent;
   background-image: none;
-<<<<<<< Updated upstream
-  border-color: #00B470;
-}
-
-/* line 63, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-success:hover {
-  color: #fff;
-  background-color: #00B470;
-  border-color: #00B470;
-}
-
-/* line 69, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-success:focus, .btn-outline-success.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5);
-}
-
-/* line 74, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-success.disabled, .btn-outline-success:disabled {
-  color: #00B470;
-  background-color: transparent;
-}
-
-/* line 80, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
-.show > .btn-outline-success.dropdown-toggle {
-  color: #fff;
-  background-color: #00B470;
-  border-color: #00B470;
-}
-
-/* line 87, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_buttons.scss */
-.btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
-.show > .btn-outline-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5);
-}
-
-/* line 70, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_buttons.scss */
-=======
-  border-color: #28a745; }
+  border-color: #00B470; }
   .btn-outline-success:hover {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745; }
+    background-color: #00B470;
+    border-color: #00B470; }
   .btn-outline-success:focus, .btn-outline-success.focus {
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5); }
   .btn-outline-success.disabled, .btn-outline-success:disabled {
-    color: #28a745;
+    color: #00B470;
     background-color: transparent; }
   .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active, .show > .btn-outline-success.dropdown-toggle {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745; }
+    background-color: #00B470;
+    border-color: #00B470; }
     .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(0, 180, 112, 0.5); }
 
->>>>>>> Stashed changes
 .btn-outline-info {
   color: #17a2b8;
   background-color: transparent;
@@ -2485,23 +2114,13 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-<<<<<<< Updated upstream
-  border-radius: 2rem;
-}
-=======
-  border-radius: 0.3rem; }
->>>>>>> Stashed changes
+  border-radius: 2rem; }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-<<<<<<< Updated upstream
-  border-radius: 1rem;
-}
-=======
-  border-radius: 0.2rem; }
->>>>>>> Stashed changes
+  border-radius: 1rem; }
 
 .btn-block {
   display: block;
@@ -2571,14 +2190,8 @@ tbody.collapse.show {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-<<<<<<< Updated upstream
   border: 0 solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
-}
-=======
-  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem; }
->>>>>>> Stashed changes
 
 .dropup .dropdown-menu {
   margin-top: 0;
@@ -2658,37 +2271,18 @@ tbody.collapse.show {
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
-<<<<<<< Updated upstream
-  border: 0;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.dropdown-item:hover, .dropdown-item:focus {
-  color: white;
-  text-decoration: none;
-  background-color: transparent;
-}
-
-/* line 101, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_dropdown.scss */
-.dropdown-item.active, .dropdown-item:active {
-  color: white;
-  text-decoration: none;
-  background-color: #007bff;
-}
-=======
   border: 0; }
   .dropdown-item:hover, .dropdown-item:focus {
-    color: #16181b;
+    color: white;
     text-decoration: none;
-    background-color: #f8f9fa; }
+    background-color: transparent; }
   .dropdown-item.active, .dropdown-item:active {
-    color: #fff;
+    color: white;
     text-decoration: none;
     background-color: #007bff; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     background-color: transparent; }
->>>>>>> Stashed changes
 
 .dropdown-menu.show {
   display: block; }
@@ -2698,56 +2292,13 @@ tbody.collapse.show {
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   font-size: 0.875rem;
-<<<<<<< Updated upstream
   color: inherit;
-  white-space: nowrap;
-}
-=======
-  color: #6c757d;
   white-space: nowrap; }
->>>>>>> Stashed changes
 
 .btn-group,
 .btn-group-vertical {
   position: relative;
   display: inline-flex;
-<<<<<<< Updated upstream
-  vertical-align: middle;
-}
-
-/* line 10, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group > .btn,
-.btn-group-vertical > .btn {
-  position: relative;
-  flex: 0 1 auto;
-}
-
-/* line 15, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.btn-group > .btn:hover,
-.btn-group-vertical > .btn:hover {
-  z-index: 1;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active,
-.btn-group-vertical > .btn:focus,
-.btn-group-vertical > .btn:active,
-.btn-group-vertical > .btn.active {
-  z-index: 1;
-}
-
-/* line 27, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group .btn + .btn,
-.btn-group .btn + .btn-group,
-.btn-group .btn-group + .btn,
-.btn-group .btn-group + .btn-group,
-.btn-group-vertical .btn + .btn,
-.btn-group-vertical .btn + .btn-group,
-.btn-group-vertical .btn-group + .btn,
-.btn-group-vertical .btn-group + .btn-group {
-  margin-left: 0;
-}
-=======
   vertical-align: middle; }
   .btn-group > .btn,
   .btn-group-vertical > .btn {
@@ -2769,8 +2320,7 @@ tbody.collapse.show {
   .btn-group-vertical .btn + .btn-group,
   .btn-group-vertical .btn-group + .btn,
   .btn-group-vertical .btn-group + .btn-group {
-    margin-left: -1px; }
->>>>>>> Stashed changes
+    margin-left: 0; }
 
 .btn-toolbar {
   display: flex;
@@ -2807,39 +2357,6 @@ tbody.collapse.show {
 .btn-group-vertical {
   flex-direction: column;
   align-items: flex-start;
-<<<<<<< Updated upstream
-  justify-content: center;
-}
-
-/* line 116, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group-vertical .btn,
-.btn-group-vertical .btn-group {
-  width: 100%;
-}
-
-/* line 121, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group-vertical > .btn + .btn,
-.btn-group-vertical > .btn + .btn-group,
-.btn-group-vertical > .btn-group + .btn,
-.btn-group-vertical > .btn-group + .btn-group {
-  margin-top: 0;
-  margin-left: 0;
-}
-
-/* line 130, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
-.btn-group-vertical > .btn-group:not(:last-child) > .btn {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-/* line 135, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_button-group.scss */
-.btn-group-vertical > .btn:not(:first-child),
-.btn-group-vertical > .btn-group:not(:first-child) > .btn {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-=======
   justify-content: center; }
   .btn-group-vertical .btn,
   .btn-group-vertical .btn-group {
@@ -2848,7 +2365,7 @@ tbody.collapse.show {
   .btn-group-vertical > .btn + .btn-group,
   .btn-group-vertical > .btn-group + .btn,
   .btn-group-vertical > .btn-group + .btn-group {
-    margin-top: -1px;
+    margin-top: 0;
     margin-left: 0; }
   .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
   .btn-group-vertical > .btn-group:not(:last-child) > .btn {
@@ -2858,7 +2375,6 @@ tbody.collapse.show {
   .btn-group-vertical > .btn-group:not(:first-child) > .btn {
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
->>>>>>> Stashed changes
 
 .btn-group-toggle > .btn,
 .btn-group-toggle > .btn-group > .btn {
@@ -3160,72 +2676,28 @@ tbody.collapse.show {
     color: #6c757d; }
 
 .nav-tabs {
-<<<<<<< Updated upstream
-  border-bottom: 0 solid transparent;
-}
-
-/* line 35, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_nav.scss */
-.nav-tabs .nav-item {
-  margin-bottom: 0;
-}
-
-/* line 39, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_nav.scss */
-.nav-tabs .nav-link {
-  border: 0 solid transparent;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: transparent;
-}
-
-/* line 47, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_nav.scss */
-.nav-tabs .nav-link.disabled {
-  color: #6c757d;
-  background-color: transparent;
-  border-color: transparent;
-}
-
-/* line 54, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_nav.scss */
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: inherit;
-  background-color: inherit;
-  border-color: transparent;
-}
-
-/* line 61, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_nav.scss */
-.nav-tabs .dropdown-menu {
-  margin-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-=======
-  border-bottom: 1px solid #dee2e6; }
+  border-bottom: 0 solid transparent; }
   .nav-tabs .nav-item {
-    margin-bottom: -1px; }
+    margin-bottom: 0; }
   .nav-tabs .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
+    border: 0 solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-      border-color: #e9ecef #e9ecef #dee2e6; }
+      border-color: transparent; }
     .nav-tabs .nav-link.disabled {
       color: #6c757d;
       background-color: transparent;
       border-color: transparent; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff; }
+    color: inherit;
+    background-color: inherit;
+    border-color: transparent; }
   .nav-tabs .dropdown-menu {
-    margin-top: -1px;
+    margin-top: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
->>>>>>> Stashed changes
 
 .nav-pills .nav-link {
   border-radius: 0.25rem; }
@@ -3254,27 +2726,13 @@ tbody.collapse.show {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-<<<<<<< Updated upstream
-  padding: 0 0;
-}
-
-/* line 28, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_navbar.scss */
-.navbar > .container,
-.navbar > .container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-=======
-  padding: 0.5rem 1rem; }
+  padding: 0 0; }
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
->>>>>>> Stashed changes
 
 .navbar-brand {
   display: inline-block;
@@ -3543,39 +3001,16 @@ tbody.collapse.show {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-<<<<<<< Updated upstream
-  border-radius: 2rem;
-}
-
-/* line 16, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-.card > hr {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-/* line 22, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-.card > .list-group:first-child .list-group-item:first-child {
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-}
-
-/* line 28, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-.card > .list-group:last-child .list-group-item:last-child {
-  border-bottom-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-}
-=======
-  border-radius: 0.25rem; }
+  border-radius: 2rem; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
   .card > .list-group:first-child .list-group-item:first-child {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem; }
   .card > .list-group:last-child .list-group-item:last-child {
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem; }
->>>>>>> Stashed changes
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem; }
 
 .card-body {
   flex: 1 1 auto;
@@ -3667,74 +3102,6 @@ tbody.collapse.show {
   display: flex;
   flex-direction: column; }
   .card-group > .card {
-<<<<<<< Updated upstream
-    flex: 1 0 0%;
-    margin-bottom: 0;
-  }
-  /* line 190, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card + .card {
-    margin-left: 0;
-    border-left: 0;
-  }
-  /* line 197, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:first-child {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  /* line 200, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:first-child .card-img-top,
-  .card-group > .card:first-child .card-header {
-    border-top-right-radius: 0;
-  }
-  /* line 204, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:first-child .card-img-bottom,
-  .card-group > .card:first-child .card-footer {
-    border-bottom-right-radius: 0;
-  }
-  /* line 210, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:last-child {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  /* line 213, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:last-child .card-img-top,
-  .card-group > .card:last-child .card-header {
-    border-top-left-radius: 0;
-  }
-  /* line 217, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:last-child .card-img-bottom,
-  .card-group > .card:last-child .card-footer {
-    border-bottom-left-radius: 0;
-  }
-  /* line 223, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:only-child {
-    border-radius: 2rem;
-  }
-  /* line 226, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:only-child .card-img-top,
-  .card-group > .card:only-child .card-header {
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-  }
-  /* line 230, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:only-child .card-img-bottom,
-  .card-group > .card:only-child .card-footer {
-    border-bottom-right-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-  }
-  /* line 236, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) {
-    border-radius: 0;
-  }
-  /* line 239, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_card.scss */
-  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
-  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
-  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-header,
-  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-footer {
-    border-radius: 0;
-  }
-}
-=======
     margin-bottom: 15px; }
   @media (min-width: 576px) {
     .card-group {
@@ -3764,15 +3131,15 @@ tbody.collapse.show {
           .card-group > .card:last-child .card-footer {
             border-bottom-left-radius: 0; }
         .card-group > .card:only-child {
-          border-radius: 0.25rem; }
+          border-radius: 2rem; }
           .card-group > .card:only-child .card-img-top,
           .card-group > .card:only-child .card-header {
-            border-top-left-radius: 0.25rem;
-            border-top-right-radius: 0.25rem; }
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem; }
           .card-group > .card:only-child .card-img-bottom,
           .card-group > .card:only-child .card-footer {
-            border-bottom-right-radius: 0.25rem;
-            border-bottom-left-radius: 0.25rem; }
+            border-bottom-right-radius: 2rem;
+            border-bottom-left-radius: 2rem; }
         .card-group > .card:not(:first-child):not(:last-child):not(:only-child) {
           border-radius: 0; }
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
@@ -3780,7 +3147,6 @@ tbody.collapse.show {
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-header,
           .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-footer {
             border-radius: 0; } }
->>>>>>> Stashed changes
 
 .card-columns .card {
   margin-bottom: 0.75rem; }
@@ -3799,12 +3165,7 @@ tbody.collapse.show {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #e9ecef;
-<<<<<<< Updated upstream
-  border-radius: 1.2em;
-}
-=======
-  border-radius: 0.25rem; }
->>>>>>> Stashed changes
+  border-radius: 1.2em; }
 
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
@@ -3823,12 +3184,7 @@ tbody.collapse.show {
   display: flex;
   padding-left: 0;
   list-style: none;
-<<<<<<< Updated upstream
-  border-radius: 1.2em;
-}
-=======
-  border-radius: 0.25rem; }
->>>>>>> Stashed changes
+  border-radius: 1.2em; }
 
 .page-link {
   position: relative;
@@ -3853,25 +3209,11 @@ tbody.collapse.show {
 
 .page-item:first-child .page-link {
   margin-left: 0;
-<<<<<<< Updated upstream
   border-top-left-radius: 1.2em;
-  border-bottom-left-radius: 1.2em;
-}
-
-/* line 44, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_pagination.scss */
+  border-bottom-left-radius: 1.2em; }
 .page-item:last-child .page-link {
   border-top-right-radius: 1.2em;
-  border-bottom-right-radius: 1.2em;
-}
-
-/* line 49, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_pagination.scss */
-=======
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem; }
-.page-item:last-child .page-link {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem; }
->>>>>>> Stashed changes
+  border-bottom-right-radius: 1.2em; }
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
@@ -3889,46 +3231,22 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: 1.5; }
 .pagination-lg .page-item:first-child .page-link {
-<<<<<<< Updated upstream
   border-top-left-radius: 1.4em;
-  border-bottom-left-radius: 1.4em;
-}
-
-/* line 17, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_pagination.scss */
+  border-bottom-left-radius: 1.4em; }
 .pagination-lg .page-item:last-child .page-link {
   border-top-right-radius: 1.4em;
-  border-bottom-right-radius: 1.4em;
-}
-=======
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem; }
-.pagination-lg .page-item:last-child .page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem; }
->>>>>>> Stashed changes
+  border-bottom-right-radius: 1.4em; }
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5; }
 .pagination-sm .page-item:first-child .page-link {
-<<<<<<< Updated upstream
   border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
-}
-
-/* line 17, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_pagination.scss */
+  border-bottom-left-radius: 1em; }
 .pagination-sm .page-item:last-child .page-link {
   border-top-right-radius: 1em;
-  border-bottom-right-radius: 1em;
-}
-=======
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem; }
-.pagination-sm .page-item:last-child .page-link {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem; }
->>>>>>> Stashed changes
+  border-bottom-right-radius: 1em; }
 
 .badge {
   display: inline-block;
@@ -3954,64 +3272,27 @@ tbody.collapse.show {
 
 .badge-primary {
   color: #fff;
-<<<<<<< Updated upstream
-  background-color: #404c5a;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.badge-primary[href]:hover, .badge-primary[href]:focus {
-  color: #fff;
-  text-decoration: none;
-  background-color: #2b333c;
-}
-=======
-  background-color: #007bff; }
+  background-color: #404c5a; }
   .badge-primary[href]:hover, .badge-primary[href]:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #0062cc; }
->>>>>>> Stashed changes
+    background-color: #2b333c; }
 
 .badge-secondary {
-<<<<<<< Updated upstream
   color: #212529;
-  background-color: #FF77A5;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.badge-secondary[href]:hover, .badge-secondary[href]:focus {
-  color: #212529;
-  text-decoration: none;
-  background-color: #ff4483;
-}
-=======
-  color: #fff;
-  background-color: #6c757d; }
+  background-color: #FF77A5; }
   .badge-secondary[href]:hover, .badge-secondary[href]:focus {
-    color: #fff;
+    color: #212529;
     text-decoration: none;
-    background-color: #545b62; }
->>>>>>> Stashed changes
+    background-color: #ff4483; }
 
 .badge-success {
   color: #fff;
-<<<<<<< Updated upstream
-  background-color: #00B470;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.badge-success[href]:hover, .badge-success[href]:focus {
-  color: #fff;
-  text-decoration: none;
-  background-color: #008150;
-}
-=======
-  background-color: #28a745; }
+  background-color: #00B470; }
   .badge-success[href]:hover, .badge-success[href]:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #1e7e34; }
->>>>>>> Stashed changes
+    background-color: #008150; }
 
 .badge-info {
   color: #fff;
@@ -4057,22 +3338,10 @@ tbody.collapse.show {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-<<<<<<< Updated upstream
-  border-radius: 1.4em;
-}
-
-@media (min-width: 576px) {
-  /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_jumbotron.scss */
-  .jumbotron {
-    padding: 4rem 2rem;
-  }
-}
-=======
-  border-radius: 0.3rem; }
+  border-radius: 1.4em; }
   @media (min-width: 576px) {
     .jumbotron {
       padding: 4rem 2rem; } }
->>>>>>> Stashed changes
 
 .jumbotron-fluid {
   padding-right: 0;
@@ -4104,76 +3373,29 @@ tbody.collapse.show {
 .alert-primary {
   color: #1a1e24;
   background-color: white;
-<<<<<<< Updated upstream
-  border-color: #ecedef;
-}
-
-/* line 6, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_alert.scss */
-.alert-primary hr {
-  border-top-color: #dee0e3;
-}
-
-/* line 10, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_alert.scss */
-.alert-primary .alert-link {
-  color: #050506;
-}
-=======
-  border-color: #e6f2ff; }
+  border-color: #ecedef; }
   .alert-primary hr {
-    border-top-color: #cde5ff; }
+    border-top-color: #dee0e3; }
   .alert-primary .alert-link {
-    color: #001933; }
->>>>>>> Stashed changes
+    color: #050506; }
 
 .alert-secondary {
   color: #663042;
   background-color: white;
-<<<<<<< Updated upstream
-  border-color: #fff1f6;
-}
-
-/* line 6, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_alert.scss */
-.alert-secondary hr {
-  border-top-color: #ffd8e6;
-}
-
-/* line 10, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_alert.scss */
-.alert-secondary .alert-link {
-  color: #43202c;
-}
-
-/* line 48, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_alert.scss */
-=======
-  border-color: #f0f1f2; }
+  border-color: #fff1f6; }
   .alert-secondary hr {
-    border-top-color: #e2e4e6; }
+    border-top-color: #ffd8e6; }
   .alert-secondary .alert-link {
-    color: #131517; }
+    color: #43202c; }
 
->>>>>>> Stashed changes
 .alert-success {
   color: #00482d;
   background-color: white;
-<<<<<<< Updated upstream
-  border-color: #e6f8f1;
-}
-
-/* line 6, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_alert.scss */
-.alert-success hr {
-  border-top-color: #d2f2e6;
-}
-
-/* line 10, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_alert.scss */
-.alert-success .alert-link {
-  color: #00150d;
-}
-=======
-  border-color: #eaf6ec; }
+  border-color: #e6f8f1; }
   .alert-success hr {
-    border-top-color: #d8eedc; }
+    border-top-color: #d2f2e6; }
   .alert-success .alert-link {
-    color: #061a0b; }
->>>>>>> Stashed changes
+    color: #00150d; }
 
 .alert-info {
   color: #09414a;
@@ -4265,51 +3487,22 @@ tbody.collapse.show {
 .list-group-item-action {
   width: 100%;
   color: #495057;
-<<<<<<< Updated upstream
-  text-align: inherit;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.list-group-item-action:hover, .list-group-item-action:focus {
-  color: #495057;
-  text-decoration: none;
-  background-color: inherit;
-}
-
-/* line 32, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_list-group.scss */
-.list-group-item-action:active {
-  color: #212529;
-  background-color: #e9ecef;
-}
-=======
   text-align: inherit; }
   .list-group-item-action:hover, .list-group-item-action:focus {
     color: #495057;
     text-decoration: none;
-    background-color: #f8f9fa; }
+    background-color: inherit; }
   .list-group-item-action:active {
     color: #212529;
     background-color: #e9ecef; }
->>>>>>> Stashed changes
 
 .list-group-item {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
-<<<<<<< Updated upstream
   background-color: transparent;
-  border: 1px solid currentColor;
-}
-
-/* line 52, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_list-group.scss */
-.list-group-item:first-child {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-=======
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125); }
+  border: 1px solid currentColor; }
   .list-group-item:first-child {
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem; }
@@ -4328,7 +3521,6 @@ tbody.collapse.show {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff; }
->>>>>>> Stashed changes
 
 .list-group-flush .list-group-item {
   border-right: 0;
@@ -4340,94 +3532,37 @@ tbody.collapse.show {
   border-bottom: 0; }
 
 .list-group-item-primary {
-<<<<<<< Updated upstream
   color: #1a1e24;
-  background-color: #ecedef;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #1a1e24;
-  background-color: #dee0e3;
-}
-
-/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_list-group.scss */
-.list-group-item-primary.list-group-item-action.active {
-  color: #fff;
-  background-color: #1a1e24;
-  border-color: #1a1e24;
-}
-=======
-  color: #003166;
-  background-color: #e6f2ff; }
+  background-color: #ecedef; }
   .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-    color: #003166;
-    background-color: #cde5ff; }
+    color: #1a1e24;
+    background-color: #dee0e3; }
   .list-group-item-primary.list-group-item-action.active {
     color: #fff;
-    background-color: #003166;
-    border-color: #003166; }
->>>>>>> Stashed changes
+    background-color: #1a1e24;
+    border-color: #1a1e24; }
 
 .list-group-item-secondary {
-<<<<<<< Updated upstream
   color: #663042;
-  background-color: #fff1f6;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-  color: #663042;
-  background-color: #ffd8e6;
-}
-
-/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_list-group.scss */
-.list-group-item-secondary.list-group-item-action.active {
-  color: #fff;
-  background-color: #663042;
-  border-color: #663042;
-}
-=======
-  color: #2b2f32;
-  background-color: #f0f1f2; }
+  background-color: #fff1f6; }
   .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-    color: #2b2f32;
-    background-color: #e2e4e6; }
+    color: #663042;
+    background-color: #ffd8e6; }
   .list-group-item-secondary.list-group-item-action.active {
     color: #fff;
-    background-color: #2b2f32;
-    border-color: #2b2f32; }
->>>>>>> Stashed changes
+    background-color: #663042;
+    border-color: #663042; }
 
 .list-group-item-success {
-<<<<<<< Updated upstream
   color: #00482d;
-  background-color: #e6f8f1;
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_hover.scss */
-.list-group-item-success.list-group-item-action:hover, .list-group-item-success.list-group-item-action:focus {
-  color: #00482d;
-  background-color: #d2f2e6;
-}
-
-/* line 14, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/mixins/_list-group.scss */
-.list-group-item-success.list-group-item-action.active {
-  color: #fff;
-  background-color: #00482d;
-  border-color: #00482d;
-}
-=======
-  color: #10431c;
-  background-color: #eaf6ec; }
+  background-color: #e6f8f1; }
   .list-group-item-success.list-group-item-action:hover, .list-group-item-success.list-group-item-action:focus {
-    color: #10431c;
-    background-color: #d8eedc; }
+    color: #00482d;
+    background-color: #d2f2e6; }
   .list-group-item-success.list-group-item-action.active {
     color: #fff;
-    background-color: #10431c;
-    border-color: #10431c; }
->>>>>>> Stashed changes
+    background-color: #00482d;
+    border-color: #00482d; }
 
 .list-group-item-info {
   color: #09414a;
@@ -4547,14 +3682,8 @@ button.close {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-<<<<<<< Updated upstream
   border-radius: 1.4em;
-  outline: 0;
-}
-=======
-  border-radius: 0.3rem;
   outline: 0; }
->>>>>>> Stashed changes
 
 .modal-backdrop {
   position: fixed;
@@ -4575,23 +3704,11 @@ button.close {
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid #e9ecef;
-<<<<<<< Updated upstream
   border-top-left-radius: 1.4em;
-  border-top-right-radius: 1.4em;
-}
-
-/* line 101, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_modal.scss */
-.modal-header .close {
-  padding: 1rem;
-  margin: -1rem -1rem -1rem auto;
-}
-=======
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem; }
+  border-top-right-radius: 1.4em; }
   .modal-header .close {
     padding: 1rem;
     margin: -1rem -1rem -1rem auto; }
->>>>>>> Stashed changes
 
 .modal-title {
   margin-bottom: 0;
@@ -4742,42 +3859,19 @@ button.close {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-<<<<<<< Updated upstream
-  border-radius: 0.3rem;
-}
-
-/* line 20, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.popover .arrow {
-  position: absolute;
-  display: block;
-  width: 1rem;
-  height: 0.5rem;
-  margin: 0 1.4em;
-}
-
-/* line 27, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.popover .arrow::before, .popover .arrow::after {
-  position: absolute;
-  display: block;
-  content: "";
-  border-color: transparent;
-  border-style: solid;
-}
-=======
   border-radius: 0.3rem; }
   .popover .arrow {
     position: absolute;
     display: block;
     width: 1rem;
     height: 0.5rem;
-    margin: 0 0.3rem; }
+    margin: 0 1.4em; }
     .popover .arrow::before, .popover .arrow::after {
       position: absolute;
       display: block;
       content: "";
       border-color: transparent;
       border-style: solid; }
->>>>>>> Stashed changes
 
 .bs-popover-top, .bs-popover-auto[x-placement^="top"] {
   margin-bottom: 0.5rem; }
@@ -4795,42 +3889,12 @@ button.close {
     border-top-color: #fff; }
 
 .bs-popover-right, .bs-popover-auto[x-placement^="right"] {
-<<<<<<< Updated upstream
-  margin-left: 0.5rem;
-}
-
-/* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-right .arrow, .bs-popover-auto[x-placement^="right"] .arrow {
-  left: calc((0.5rem + 1px) * -1);
-  width: 0.5rem;
-  height: 1rem;
-  margin: 1.4em 0;
-}
-
-/* line 71, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before,
-.bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
-  border-width: 0.5rem 0.5rem 0.5rem 0;
-}
-
-/* line 76, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
-  left: 0;
-  border-right-color: rgba(0, 0, 0, 0.25);
-}
-
-/* line 81, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
-  left: 1px;
-  border-right-color: #fff;
-}
-=======
   margin-left: 0.5rem; }
   .bs-popover-right .arrow, .bs-popover-auto[x-placement^="right"] .arrow {
     left: calc((0.5rem + 1px) * -1);
     width: 0.5rem;
     height: 1rem;
-    margin: 0.3rem 0; }
+    margin: 1.4em 0; }
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before,
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
@@ -4841,7 +3905,6 @@ button.close {
   .bs-popover-right .arrow::after, .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
     border-right-color: #fff; }
->>>>>>> Stashed changes
 
 .bs-popover-bottom, .bs-popover-auto[x-placement^="bottom"] {
   margin-top: 0.5rem; }
@@ -4868,42 +3931,12 @@ button.close {
     border-bottom: 1px solid #f7f7f7; }
 
 .bs-popover-left, .bs-popover-auto[x-placement^="left"] {
-<<<<<<< Updated upstream
-  margin-right: 0.5rem;
-}
-
-/* line 125, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-left .arrow, .bs-popover-auto[x-placement^="left"] .arrow {
-  right: calc((0.5rem + 1px) * -1);
-  width: 0.5rem;
-  height: 1rem;
-  margin: 1.4em 0;
-}
-
-/* line 132, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before,
-.bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
-  border-width: 0.5rem 0 0.5rem 0.5rem;
-}
-
-/* line 137, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
-  right: 0;
-  border-left-color: rgba(0, 0, 0, 0.25);
-}
-
-/* line 142, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
-  right: 1px;
-  border-left-color: #fff;
-}
-=======
   margin-right: 0.5rem; }
   .bs-popover-left .arrow, .bs-popover-auto[x-placement^="left"] .arrow {
     right: calc((0.5rem + 1px) * -1);
     width: 0.5rem;
     height: 1rem;
-    margin: 0.3rem 0; }
+    margin: 1.4em 0; }
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before,
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
@@ -4914,7 +3947,6 @@ button.close {
   .bs-popover-left .arrow::after, .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
     border-left-color: #fff; }
->>>>>>> Stashed changes
 
 .popover-header {
   padding: 0.5rem 0.75rem;
@@ -4923,21 +3955,10 @@ button.close {
   color: inherit;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-<<<<<<< Updated upstream
   border-top-left-radius: calc(1.4em - 1px);
-  border-top-right-radius: calc(1.4em - 1px);
-}
-
-/* line 175, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/_popover.scss */
-.popover-header:empty {
-  display: none;
-}
-=======
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px); }
+  border-top-right-radius: calc(1.4em - 1px); }
   .popover-header:empty {
     display: none; }
->>>>>>> Stashed changes
 
 .popover-body {
   padding: 0.5rem 0.75rem;
@@ -5104,58 +4125,28 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-<<<<<<< Updated upstream
-  background-color: #404c5a !important;
-}
-=======
-  background-color: #007bff !important; }
->>>>>>> Stashed changes
+  background-color: #404c5a !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-<<<<<<< Updated upstream
-  background-color: #2b333c !important;
-}
-=======
-  background-color: #0062cc !important; }
->>>>>>> Stashed changes
+  background-color: #2b333c !important; }
 
 .bg-secondary {
-<<<<<<< Updated upstream
-  background-color: #FF77A5 !important;
-}
-=======
-  background-color: #6c757d !important; }
->>>>>>> Stashed changes
+  background-color: #FF77A5 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-<<<<<<< Updated upstream
-  background-color: #ff4483 !important;
-}
-=======
-  background-color: #545b62 !important; }
->>>>>>> Stashed changes
+  background-color: #ff4483 !important; }
 
 .bg-success {
-<<<<<<< Updated upstream
-  background-color: #00B470 !important;
-}
-=======
-  background-color: #28a745 !important; }
->>>>>>> Stashed changes
+  background-color: #00B470 !important; }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-<<<<<<< Updated upstream
-  background-color: #008150 !important;
-}
-=======
-  background-color: #1e7e34 !important; }
->>>>>>> Stashed changes
+  background-color: #008150 !important; }
 
 .bg-info {
   background-color: #17a2b8 !important; }
@@ -5234,28 +4225,13 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-<<<<<<< Updated upstream
-  border-color: #404c5a !important;
-}
-=======
-  border-color: #007bff !important; }
->>>>>>> Stashed changes
+  border-color: #404c5a !important; }
 
 .border-secondary {
-<<<<<<< Updated upstream
-  border-color: #FF77A5 !important;
-}
-=======
-  border-color: #6c757d !important; }
->>>>>>> Stashed changes
+  border-color: #FF77A5 !important; }
 
 .border-success {
-<<<<<<< Updated upstream
-  border-color: #00B470 !important;
-}
-=======
-  border-color: #28a745 !important; }
->>>>>>> Stashed changes
+  border-color: #00B470 !important; }
 
 .border-info {
   border-color: #17a2b8 !important; }
@@ -5276,52 +4252,23 @@ button.bg-dark:focus {
   border-color: #fff !important; }
 
 .rounded {
-<<<<<<< Updated upstream
-  border-radius: 1.2em !important;
-}
-=======
-  border-radius: 0.25rem !important; }
->>>>>>> Stashed changes
+  border-radius: 1.2em !important; }
 
 .rounded-top {
-<<<<<<< Updated upstream
   border-top-left-radius: 1.2em !important;
-  border-top-right-radius: 1.2em !important;
-}
-=======
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important; }
->>>>>>> Stashed changes
+  border-top-right-radius: 1.2em !important; }
 
 .rounded-right {
-<<<<<<< Updated upstream
   border-top-right-radius: 1.2em !important;
-  border-bottom-right-radius: 1.2em !important;
-}
-=======
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important; }
->>>>>>> Stashed changes
+  border-bottom-right-radius: 1.2em !important; }
 
 .rounded-bottom {
-<<<<<<< Updated upstream
   border-bottom-right-radius: 1.2em !important;
-  border-bottom-left-radius: 1.2em !important;
-}
-=======
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important; }
->>>>>>> Stashed changes
+  border-bottom-left-radius: 1.2em !important; }
 
 .rounded-left {
-<<<<<<< Updated upstream
   border-top-left-radius: 1.2em !important;
-  border-bottom-left-radius: 1.2em !important;
-}
-=======
-  border-top-left-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important; }
->>>>>>> Stashed changes
+  border-bottom-left-radius: 1.2em !important; }
 
 .rounded-circle {
   border-radius: 50% !important; }
@@ -7411,52 +6358,22 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-<<<<<<< Updated upstream
-  color: #404c5a !important;
-}
-=======
-  color: #007bff !important; }
->>>>>>> Stashed changes
+  color: #404c5a !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-<<<<<<< Updated upstream
-  color: #2b333c !important;
-}
-=======
-  color: #0062cc !important; }
->>>>>>> Stashed changes
+  color: #2b333c !important; }
 
 .text-secondary {
-<<<<<<< Updated upstream
-  color: #FF77A5 !important;
-}
-=======
-  color: #6c757d !important; }
->>>>>>> Stashed changes
+  color: #FF77A5 !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
-<<<<<<< Updated upstream
-  color: #ff4483 !important;
-}
-=======
-  color: #545b62 !important; }
->>>>>>> Stashed changes
+  color: #ff4483 !important; }
 
 .text-success {
-<<<<<<< Updated upstream
-  color: #00B470 !important;
-}
-=======
-  color: #28a745 !important; }
->>>>>>> Stashed changes
+  color: #00B470 !important; }
 
 a.text-success:hover, a.text-success:focus {
-<<<<<<< Updated upstream
-  color: #008150 !important;
-}
-=======
-  color: #1e7e34 !important; }
->>>>>>> Stashed changes
+  color: #008150 !important; }
 
 .text-info {
   color: #17a2b8 !important; }
@@ -7564,20 +6481,7 @@ a.text-dark:hover, a.text-dark:focus {
 
   .table-bordered th,
   .table-bordered td {
-<<<<<<< Updated upstream
-    border: 1px solid #ddd !important;
-  }
-}
-
-=======
     border: 1px solid #ddd !important; } }
-/* =============================================================================
-   Individual Colors
-   ========================================================================== */
-/*$dropdown-padding-y:             0;*/
-/*$card-bg:                        white;*/
-/*$btn-border-radius:           $border-radius !default;*/
->>>>>>> Stashed changes
 /** Globals **/
 /** Individual Layouts**/
 /** Colors **/
@@ -7685,7 +6589,9 @@ h1, .h1 {
   font-size: 1.8rem; }
   @media (max-width: 575.98px) {
     h1, .h1 {
-      font-size: 1.2rem; } }
+      font-size: 1.2rem; }
+      h1 + *, .h1 + * {
+        display: none; } }
 
 h1, h2 {
   text-transform: uppercase;
@@ -7727,14 +6633,6 @@ h3, h4 {
   .featured-list h3, .featured-list h4 {
     border-width: 0 0 2px 0;
     border-style: solid; }
-    .cat-blue .featured-list h3, .cat-blue .featured-list h4 {
-      border-color: #159EE5; }
-    .cat-yellow .featured-list h3, .cat-yellow .featured-list h4 {
-      border-color: #FF9A34; }
-    .cat-pink .featured-list h3, .cat-pink .featured-list h4 {
-      border-color: #FF77A5; }
-    .cat-green .featured-list h3, .cat-green .featured-list h4 {
-      border-color: #00B470; }
   #footer h3, #footer h4 {
     font-weight: 300;
     text-transform: uppercase; }
@@ -7799,17 +6697,6 @@ i[class*="fa"] {
   color: inherit;
   font-size: inherit; }
 
-/*@mixin button-size($padding-y, $padding-x, $font-size, $line-height, $border-radius) {
-  padding: $padding-y $padding-x;
-  font-size: $font-size;
-  line-height: $line-height;
-  // Manually declare to provide an override to the browser default
-  @if $enable-rounded {
-    border-radius: $border-radius;
-  } @else {
-    border-radius: 0;
-  }
-}*/
 .btn {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -7817,92 +6704,7 @@ i[class*="fa"] {
   border-radius: 2rem;
   background-color: #404c5a;
   color: white;
-<<<<<<< Updated upstream
-  /** DEBUG***/
-}
-
-/* line 19, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn-group-vertical .btn {
-  border-radius: 1rem;
-}
-
-/* line 22, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn.btn-primary {
-  background-color: #007bff !important;
-}
-
-/* line 23, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn.btn-secondary {
-  background-color: #6c757d !important;
-}
-
-/* line 24, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn.btn-success {
-  background-color: #28a745 !important;
-}
-
-/* line 25, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn.btn-danger {
-  background-color: #dc3545 !important;
-}
-
-/* line 26, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn.btn-warning {
-  background-color: #ffc107 !important;
-}
-
-/* line 27, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn.btn-info {
-  background-color: #17a2b8 !important;
-}
-
-/* line 29, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn:focus, .btn.focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
-/* line 35, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn:focus, .btn:hover {
-  text-decoration: none !important;
-  opacity: .85;
-}
-
-/* line 39, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-.btn [class*="btn"] {
-  border: 0 !important;
-}
-
-/* line 43, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-#top-bar .btn.search {
-  margin-left: 1rem;
-}
-
-@media (max-width: 1199.98px) {
-  /* line 49, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-  .hero [class*="Search"] .btn span {
-    display: inline-block !important;
-  }
-}
-
-@media (min-width: 992px) {
-  /* line 47, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-  .btn span {
-    display: none;
-  }
-}
-
-/* line 57, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_buttons.scss */
-=======
   /** DEBUG***/ }
-  .cat-blue .btn {
-    background: #159EE5; }
-  .cat-yellow .btn {
-    background: #FF9A34; }
-  .cat-pink .btn {
-    background: #FF77A5; }
-  .cat-green .btn {
-    background: #00B470; }
   .btn-group-vertical .btn {
     border-radius: 1rem; }
   .btn.btn-primary {
@@ -7934,7 +6736,6 @@ i[class*="fa"] {
     .btn span {
       display: none; } }
 
->>>>>>> Stashed changes
 .btn-group-vertical {
   border: 0 !important; }
   @media (max-width: 1199.98px) {
@@ -7942,26 +6743,6 @@ i[class*="fa"] {
       width: 100%; } }
   .btn-group-vertical .btn {
     margin-bottom: .15rem; }
-
-*.cat-blue .btn-theme {
-  background-color: #159EE5; }
-  *.cat-blue .btn-theme, *.cat-blue .btn-theme *, *.cat-blue .btn-theme:hover {
-    color: white !important; }
-
-*.cat-pink .btn-theme {
-  background-color: #FF77A5; }
-  *.cat-pink .btn-theme, *.cat-pink .btn-theme *, *.cat-pink .btn-theme:hover {
-    color: white !important; }
-
-*.cat-yellow .btn-theme {
-  background-color: #FF9A34; }
-  *.cat-yellow .btn-theme, *.cat-yellow .btn-theme *, *.cat-yellow .btn-theme:hover {
-    color: white !important; }
-
-*.cat-green .btn-theme {
-  background-color: #00B470; }
-  *.cat-green .btn-theme, *.cat-green .btn-theme *, *.cat-green .btn-theme:hover {
-    color: white !important; }
 
 .custom-select {
   -webkit-appearance: none;
@@ -8012,110 +6793,37 @@ input[type="radio"] {
   .toggle input[type="radio"]:disabled + .label-text:before {
     content: "" !important; }
 
+.largeHeroBox,
 .largeDoubleSearch,
 .largeSimpleSearch {
   -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-<<<<<<< Updated upstream
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  color: white;
-}
-
-/* line 63, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-.largeDoubleSearch .card-body,
-.largeSimpleSearch .card-body {
-  /*        @include category-backgrounds;*/
-}
-
-/* line 65, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-.largeDoubleSearch .card-body > *,
-.largeSimpleSearch .card-body > * {
-  padding: 0 1.5rem;
-}
-
-@media (max-width: 575.98px) {
-  /* line 65, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-  .largeDoubleSearch .card-body > *,
-  .largeSimpleSearch .card-body > * {
-    padding: 0 .5rem;
-  }
-}
-
-/* line 72, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-.largeDoubleSearch form .form-group,
-.largeSimpleSearch form .form-group {
-  margin: 0;
-}
-
-/* line 75, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-.largeDoubleSearch form label,
-.largeSimpleSearch form label {
-  font-weight: bold;
-  color: white;
-}
-
-@media (min-width: 576px) {
-  /* line 75, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-  .largeDoubleSearch form label,
-  .largeSimpleSearch form label {
-    margin-left: 1.15rem;
-  }
-}
-
-/* line 81, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-.largeDoubleSearch form input,
-.largeSimpleSearch form input {
-  margin: 0 1em 0 .5em;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-  border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
-}
-
-/* line 92, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-.largeDoubleSearch form .form-group {
-  -webkit-flex-basis: 40%;
-  -moz-flex-basis: 40%;
-  flex-basis: 40%;
-  -ms-flex-preferred-size: 40%;
-}
-
-/* line 98, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_forms.scss */
-=======
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
-  .largeDoubleSearch *,
-  .largeSimpleSearch * {
-    color: white; }
-  .cat-blue .largeDoubleSearch .card-body, .cat-blue
-  .largeSimpleSearch .card-body {
-    background: #159EE5; }
-  .cat-yellow .largeDoubleSearch .card-body, .cat-yellow
-  .largeSimpleSearch .card-body {
-    background: #FF9A34; }
-  .cat-pink .largeDoubleSearch .card-body, .cat-pink
-  .largeSimpleSearch .card-body {
-    background: #FF77A5; }
-  .cat-green .largeDoubleSearch .card-body, .cat-green
-  .largeSimpleSearch .card-body {
-    background: #00B470; }
+  color: white; }
+  .largeHeroBox .card-body > *,
   .largeDoubleSearch .card-body > *,
   .largeSimpleSearch .card-body > * {
     padding: 0 1.5rem; }
     @media (max-width: 575.98px) {
+      .largeHeroBox .card-body > *,
       .largeDoubleSearch .card-body > *,
       .largeSimpleSearch .card-body > * {
         padding: 0 .5rem; } }
+  .largeHeroBox form .form-group,
   .largeDoubleSearch form .form-group,
   .largeSimpleSearch form .form-group {
     margin: 0; }
+  .largeHeroBox form label,
   .largeDoubleSearch form label,
   .largeSimpleSearch form label {
     font-weight: bold;
     color: white; }
     @media (min-width: 576px) {
+      .largeHeroBox form label,
       .largeDoubleSearch form label,
       .largeSimpleSearch form label {
         margin-left: 1.15rem; } }
+  .largeHeroBox form input,
   .largeDoubleSearch form input,
   .largeSimpleSearch form input {
     margin: 0 1em 0 .5em;
@@ -8130,7 +6838,6 @@ input[type="radio"] {
   flex-basis: 40%;
   -ms-flex-preferred-size: 40%; }
 
->>>>>>> Stashed changes
 .largeSimpleSearch form {
   -webkit-flex-basis: 75%;
   -moz-flex-basis: 75%;
@@ -8178,19 +6885,23 @@ input[type="radio"] {
 
 .simpleContentSearch {
   border-radius: 1.2em;
-  padding: 1.2rem; }
-  .cat-blue .simpleContentSearch {
-    background-color: #09a2f2;
-    color: white; }
-  .cat-yellow .simpleContentSearch {
-    background-color: #ff9a34;
-    color: white; }
-  .cat-pink .simpleContentSearch {
-    background-color: #ff77a5;
-    color: white; }
-  .cat-green .simpleContentSearch {
-    background-color: #00b470;
-    color: white; }
+  padding: 1.2rem;
+  /*    .cat-blue &{
+          background-color: saturate( $blue, 10% );
+          color:white;
+          }
+       .cat-yellow &{
+          background-color: saturate( $yellow, 10% );
+          color:white;
+          }
+       .cat-pink  &{
+              background-color: saturate( $pink, 10% );
+          color:white;
+          }
+       .cat-green  &{
+              background-color: saturate( $green, 10% );
+          color:white;
+          }*/ }
   .simpleContentSearch .input-group label {
     flex-basis: 30%; }
 
@@ -8238,18 +6949,6 @@ list-item .profile-img,
     .profile .profile-img {
       width: 150px;
       height: auto; } }
-  .cat-blue list-item .profile-img, .cat-blue
-  .profile .profile-img {
-    border-color: #159EE5; }
-  .cat-yellow list-item .profile-img, .cat-yellow
-  .profile .profile-img {
-    border-color: #FF9A34; }
-  .cat-pink list-item .profile-img, .cat-pink
-  .profile .profile-img {
-    border-color: #FF77A5; }
-  .cat-green list-item .profile-img, .cat-green
-  .profile .profile-img {
-    border-color: #00B470; }
 list-item .card-content,
 .profile .card-content {
   width: 100%; }
@@ -8266,14 +6965,6 @@ list-item .card-content,
   .list-group-item.show-more {
     text-align: right;
     border: 0; }
-    .cat-blue .list-group-item.show-more {
-      color: #159EE5; }
-    .cat-yellow .list-group-item.show-more {
-      color: #FF9A34; }
-    .cat-pink .list-group-item.show-more {
-      color: #FF77A5; }
-    .cat-green .list-group-item.show-more {
-      color: #00B470; }
     .list-group-item.show-more a[aria-expanded="false"]:after {
       font-family: 'FontAwesome';
       content: "" !important;
@@ -8294,88 +6985,23 @@ list-item .card-content,
     border: 0; }
   .list-group-item [data-icon] {
     font-size: 1.6rem; }
-  .cat-blue .list-group-item [data-icon] {
-    color: #159EE5; }
-  .cat-yellow .list-group-item [data-icon] {
-    color: #FF9A34; }
-  .cat-pink .list-group-item [data-icon] {
-    color: #FF77A5; }
-  .cat-green .list-group-item [data-icon] {
-    color: #00B470; }
   #footer .list-group-item {
     padding-left: 0;
     padding-right: 0; }
 
-table.table {
-<<<<<<< Updated upstream
-  /*    .cat-blue &{background:$blue;}
-    .cat-yellow &{background:$yellow;}
-    .cat-pink &{background:$pink;}
-    .cat-green &{background:$green;}*/
-  color: white;
-}
-
-/* line 83, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_globals.scss */
 table.table tbody tr:nth-child(odd) {
   background-color: #bfbfbf;
-  background-color: rgba(0, 0, 0, 0.25);
-}
-
-/* line 86, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_globals.scss */
+  background-color: rgba(0, 0, 0, 0.25); }
 table.table thead {
   font-weight: bold;
-  background: transparent;
-}
-
-/* line 90, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_globals.scss */
+  background: transparent; }
 table.table th, table.table td {
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-color: currentColor;
-}
-=======
-  color: white; }
-  .cat-blue table.table {
-    background: #159EE5; }
-  .cat-yellow table.table {
-    background: #FF9A34; }
-  .cat-pink table.table {
-    background: #FF77A5; }
-  .cat-green table.table {
-    background: #00B470; }
-  table.table tbody tr:nth-child(odd) {
-    background-color: #bfbfbf;
-    background-color: rgba(0, 0, 0, 0.25); }
-  table.table thead {
-    font-weight: bold;
-    background: transparent; }
-  table.table th, table.table td {
-    border-width: 0 0 1px 0;
-    border-style: solid;
-    border-color: currentColor; }
->>>>>>> Stashed changes
+  border-color: currentColor; }
 
 .badge.badge-default {
-<<<<<<< Updated upstream
-  color: white;
-  /*    .cat-blue &{background:$blue;}
-    .cat-yellow &{background:$yellow;}
-    .cat-pink &{background:$pink;}
-    .cat-green &{background:$green;}*/
-}
-
-/* line 102, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_globals.scss */
-=======
   color: white; }
-  .cat-blue .badge.badge-default {
-    background: #159EE5; }
-  .cat-yellow .badge.badge-default {
-    background: #FF9A34; }
-  .cat-pink .badge.badge-default {
-    background: #FF77A5; }
-  .cat-green .badge.badge-default {
-    background: #00B470; }
->>>>>>> Stashed changes
 .badge.badge-primary {
   background: #007bff; }
 .badge.badge-secondary {
@@ -8419,19 +7045,7 @@ table.table th, table.table td {
   .card .card-body .badge-box + .card-title {
     margin-top: 1em; }
 .card .card-zoom {
-  overflow: hidden;
-  /*                @include media-breakpoint-down(xl) {
-              border:8px solid black;
-          }
-                  @include media-breakpoint-down(lg) {
-              
-          }
-                  @include media-breakpoint-down(md) {
-              border:3px dotted blue;
-          }
-                  @include media-breakpoint-down(sm) {
-              
-          }*/ }
+  overflow: hidden; }
   @media (max-width: 575.98px) {
     .card .card-zoom {
       display: none; } }
@@ -8543,14 +7157,6 @@ table.table th, table.table td {
 .pagination {
   border: 0;
   font-size: large; }
-  .cat-blue .pagination {
-    color: #159EE5; }
-  .cat-yellow .pagination {
-    color: #FF9A34; }
-  .cat-pink .pagination {
-    color: #FF77A5; }
-  .cat-green .pagination {
-    color: #00B470; }
 
 .iframe-elastic {
   position: relative;
@@ -8713,7 +7319,16 @@ table.table th, table.table td {
   box-shadow: none !important;
   background: transparent;
   margin-right: 0;
-  background: transparent url(/g/logo/logo-img-white.png) no-repeat 0% 0%/auto 50%; }
+  min-height: auto;
+  text-indent: -99999px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+  background-image: url("../g/logo/logo-img-white.png");
+  background-image: none, url("../g/logo/logo-img-white.svg");
+  background-size: auto 50%;
+  /*            background:transparent url(../g/logo/logo-img-white.png) no-repeat 0% 0%/ auto 50%;*/ }
   @media (max-width: 575.98px) {
     #top-nav .nav-item.home {
       display: none; } }
@@ -8724,15 +7339,22 @@ table.table th, table.table td {
     padding: 0;
     opacity: 0;
     text-indent: -999999px; }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #top-nav .nav-item.home {
-      background-image: url(/g/logo/logo-img-white@2x.png); } }
+      background-image: url("../g/logo/logo-img-white@2x.png"); } }
   @media (min-width: 1200px) {
     #top-nav .nav-item.home {
-      background: url(/g/logo/logo-large-white.png) no-repeat 0% 0%/auto 50%; } }
-  @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
+      min-height: auto;
+      text-indent: -99999px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-size: contain;
+      background-image: url("../g/logo/logo-large-white.png");
+      background-image: none, url("../g/logo/logo-large-white.svg"); } }
+  @media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
     #top-nav .nav-item.home {
-      background-image: url(/g/logo/logo-large-white@2x.png); } }
+      background-image: url("../g/logo/logo-large-white@2x.png"); } }
 
 #top-nav[class*="js-is-st"] .nav-item.home {
   background-position: 50% 40%;
@@ -8815,293 +7437,6 @@ table.table th, table.table td {
       max-width: 1140px; } }
 
 .dropdown-menu.show {
-<<<<<<< Updated upstream
-  background-color: white !important;
-}
-
-@media (max-width: 575.98px) {
-  /* line 201, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-blue .dropdown-menu.show {
-    background-color: #117eb6 !important;
-  }
-  /* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-blue .dropdown-menu.show:before {
-    border-color: transparent transparent #117eb6 transparent;
-  }
-  /* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-blue .dropdown-menu.show .dropdown-header {
-    padding-bottom: .5rem;
-    border-bottom: 2px solid white;
-  }
-  /* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-blue .dropdown-menu.show .sub-cats li > a:before {
-    color: white;
-  }
-  /* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-blue .dropdown-menu.show .sub-cats li > a:hover {
-    background-color: white;
-    color: white;
-  }
-  /* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-blue .dropdown-menu.show .sub-cats li > a:hover:before {
-    color: white;
-  }
-  /* line 205, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-yellow > .dropdown-menu.show {
-    background-color: #ffa74e !important;
-  }
-  /* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-yellow > .dropdown-menu.show:before {
-    border-color: transparent transparent #ffa74e transparent;
-  }
-  /* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-yellow > .dropdown-menu.show .dropdown-header {
-    padding-bottom: .5rem;
-    border-bottom: 2px solid white;
-  }
-  /* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-yellow > .dropdown-menu.show .sub-cats li > a:before {
-    color: white;
-  }
-  /* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-yellow > .dropdown-menu.show .sub-cats li > a:hover {
-    background-color: white;
-    color: white;
-  }
-  /* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-yellow > .dropdown-menu.show .sub-cats li > a:hover:before {
-    color: white;
-  }
-  /* line 207, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-yellow > .dropdown-menu.show:before {
-    left: 7rem;
-  }
-  /* line 211, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-pink > .dropdown-menu.show {
-    background-color: #ff91b6 !important;
-  }
-  /* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-pink > .dropdown-menu.show:before {
-    border-color: transparent transparent #ff91b6 transparent;
-  }
-  /* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-pink > .dropdown-menu.show .dropdown-header {
-    padding-bottom: .5rem;
-    border-bottom: 2px solid white;
-  }
-  /* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-pink > .dropdown-menu.show .sub-cats li > a:before {
-    color: white;
-  }
-  /* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-pink > .dropdown-menu.show .sub-cats li > a:hover {
-    background-color: white;
-    color: white;
-  }
-  /* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-pink > .dropdown-menu.show .sub-cats li > a:hover:before {
-    color: white;
-  }
-  /* line 213, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-pink > .dropdown-menu.show:before {
-    left: 15rem;
-  }
-  /* line 217, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-green > .dropdown-menu.show {
-    background-color: #00a265 !important;
-  }
-  /* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-green > .dropdown-menu.show:before {
-    border-color: transparent transparent #00a265 transparent;
-  }
-  /* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-green > .dropdown-menu.show .dropdown-header {
-    padding-bottom: .5rem;
-    border-bottom: 2px solid white;
-  }
-  /* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-green > .dropdown-menu.show .sub-cats li > a:before {
-    color: white;
-  }
-  /* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-green > .dropdown-menu.show .sub-cats li > a:hover {
-    background-color: white;
-    color: white;
-  }
-  /* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .cat-green > .dropdown-menu.show .sub-cats li > a:hover:before {
-    color: white;
-  }
-  /* line 219, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .cat-green > .dropdown-menu.show:before {
-    left: 21rem;
-  }
-}
-
-/* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown-menu.show:before {
-  border-color: transparent transparent white transparent;
-}
-
-/* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown-menu.show .dropdown-header {
-  padding-bottom: .5rem;
-  border-bottom: 2px solid currentColor;
-}
-
-/* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown-menu.show .sub-cats li > a:before {
-  color: currentColor;
-}
-
-/* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown-menu.show .sub-cats li > a:hover {
-  background-color: currentColor;
-  color: white;
-}
-
-/* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown-menu.show .sub-cats li > a:hover:before {
-  color: white;
-}
-
-/* line 226, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-#top-nav[class*="js-is-"] .dropdown-menu.show:before {
-  left: 3rem;
-  top: -2em;
-  transition: top 200ms ease-out;
-}
-
-/* line 231, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.dropdown.cat-blue > .dropdown-menu.show {
-  background-color: #fff !important;
-}
-
-/* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-blue > .dropdown-menu.show:before {
-  border-color: transparent transparent #fff transparent;
-}
-
-/* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-blue > .dropdown-menu.show .dropdown-header {
-  padding-bottom: .5rem;
-  border-bottom: 2px solid #159EE5;
-}
-
-/* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:before {
-  color: #159EE5;
-}
-
-/* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:hover {
-  background-color: #159EE5;
-  color: white;
-}
-
-/* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:hover:before {
-  color: white;
-}
-
-/* line 234, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.dropdown.cat-yellow > .dropdown-menu.show {
-  background-color: #fff !important;
-}
-
-/* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-yellow > .dropdown-menu.show:before {
-  border-color: transparent transparent #fff transparent;
-}
-
-/* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-yellow > .dropdown-menu.show .dropdown-header {
-  padding-bottom: .5rem;
-  border-bottom: 2px solid #FF9A34;
-}
-
-/* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:before {
-  color: #FF9A34;
-}
-
-/* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:hover {
-  background-color: #FF9A34;
-  color: white;
-}
-
-/* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:hover:before {
-  color: white;
-}
-
-/* line 237, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.dropdown.cat-pink > .dropdown-menu.show {
-  background-color: #fff !important;
-}
-
-/* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-pink > .dropdown-menu.show:before {
-  border-color: transparent transparent #fff transparent;
-}
-
-/* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-pink > .dropdown-menu.show .dropdown-header {
-  padding-bottom: .5rem;
-  border-bottom: 2px solid #FF77A5;
-}
-
-/* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:before {
-  color: #FF77A5;
-}
-
-/* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:hover {
-  background-color: #FF77A5;
-  color: white;
-}
-
-/* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:hover:before {
-  color: white;
-}
-
-/* line 240, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.dropdown.cat-green > .dropdown-menu.show {
-  background-color: #fff !important;
-}
-
-/* line 180, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-green > .dropdown-menu.show:before {
-  border-color: transparent transparent #fff transparent;
-}
-
-/* line 183, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-green > .dropdown-menu.show .dropdown-header {
-  padding-bottom: .5rem;
-  border-bottom: 2px solid #00B470;
-}
-
-/* line 188, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:before {
-  color: #00B470;
-}
-
-/* line 191, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:hover {
-  background-color: #00B470;
-  color: white;
-}
-
-/* line 194, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:hover:before {
-  color: white;
-}
-
-/* line 246, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-=======
   background-color: white !important; }
   @media (max-width: 575.98px) {
     .cat-blue .dropdown-menu.show {
@@ -9111,10 +7446,13 @@ table.table th, table.table td {
       .cat-blue .dropdown-menu.show .dropdown-header {
         padding-bottom: .5rem;
         border-bottom: 2px solid white; }
-      .cat-blue .dropdown-menu.show .sub-cats li > a:hover {
-        text-decoration: underline; }
-      .cat-blue .dropdown-menu.show .sub-cats li > a:hover, .cat-blue .dropdown-menu.show .sub-cats li > a:before {
+      .cat-blue .dropdown-menu.show .sub-cats li > a:before {
         color: white; }
+      .cat-blue .dropdown-menu.show .sub-cats li > a:hover {
+        background-color: white;
+        color: white; }
+        .cat-blue .dropdown-menu.show .sub-cats li > a:hover:before {
+          color: white; }
     .cat-yellow > .dropdown-menu.show {
       background-color: #ffa74e !important; }
       .cat-yellow > .dropdown-menu.show:before {
@@ -9122,10 +7460,13 @@ table.table th, table.table td {
       .cat-yellow > .dropdown-menu.show .dropdown-header {
         padding-bottom: .5rem;
         border-bottom: 2px solid white; }
-      .cat-yellow > .dropdown-menu.show .sub-cats li > a:hover {
-        text-decoration: underline; }
-      .cat-yellow > .dropdown-menu.show .sub-cats li > a:hover, .cat-yellow > .dropdown-menu.show .sub-cats li > a:before {
+      .cat-yellow > .dropdown-menu.show .sub-cats li > a:before {
         color: white; }
+      .cat-yellow > .dropdown-menu.show .sub-cats li > a:hover {
+        background-color: white;
+        color: white; }
+        .cat-yellow > .dropdown-menu.show .sub-cats li > a:hover:before {
+          color: white; }
       .cat-yellow > .dropdown-menu.show:before {
         left: 7rem; }
     .cat-pink > .dropdown-menu.show {
@@ -9135,10 +7476,13 @@ table.table th, table.table td {
       .cat-pink > .dropdown-menu.show .dropdown-header {
         padding-bottom: .5rem;
         border-bottom: 2px solid white; }
-      .cat-pink > .dropdown-menu.show .sub-cats li > a:hover {
-        text-decoration: underline; }
-      .cat-pink > .dropdown-menu.show .sub-cats li > a:hover, .cat-pink > .dropdown-menu.show .sub-cats li > a:before {
+      .cat-pink > .dropdown-menu.show .sub-cats li > a:before {
         color: white; }
+      .cat-pink > .dropdown-menu.show .sub-cats li > a:hover {
+        background-color: white;
+        color: white; }
+        .cat-pink > .dropdown-menu.show .sub-cats li > a:hover:before {
+          color: white; }
       .cat-pink > .dropdown-menu.show:before {
         left: 15rem; }
     .cat-green > .dropdown-menu.show {
@@ -9148,10 +7492,13 @@ table.table th, table.table td {
       .cat-green > .dropdown-menu.show .dropdown-header {
         padding-bottom: .5rem;
         border-bottom: 2px solid white; }
-      .cat-green > .dropdown-menu.show .sub-cats li > a:hover {
-        text-decoration: underline; }
-      .cat-green > .dropdown-menu.show .sub-cats li > a:hover, .cat-green > .dropdown-menu.show .sub-cats li > a:before {
+      .cat-green > .dropdown-menu.show .sub-cats li > a:before {
         color: white; }
+      .cat-green > .dropdown-menu.show .sub-cats li > a:hover {
+        background-color: white;
+        color: white; }
+        .cat-green > .dropdown-menu.show .sub-cats li > a:hover:before {
+          color: white; }
       .cat-green > .dropdown-menu.show:before {
         left: 21rem; } }
   .dropdown-menu.show:before {
@@ -9159,10 +7506,13 @@ table.table th, table.table td {
   .dropdown-menu.show .dropdown-header {
     padding-bottom: .5rem;
     border-bottom: 2px solid currentColor; }
-  .dropdown-menu.show .sub-cats li > a:hover {
-    text-decoration: underline; }
-  .dropdown-menu.show .sub-cats li > a:hover, .dropdown-menu.show .sub-cats li > a:before {
+  .dropdown-menu.show .sub-cats li > a:before {
     color: currentColor; }
+  .dropdown-menu.show .sub-cats li > a:hover {
+    background-color: currentColor;
+    color: white; }
+    .dropdown-menu.show .sub-cats li > a:hover:before {
+      color: white; }
   #top-nav[class*="js-is-"] .dropdown-menu.show:before {
     left: 3rem;
     top: -2em;
@@ -9174,10 +7524,13 @@ table.table th, table.table td {
     .dropdown.cat-blue > .dropdown-menu.show .dropdown-header {
       padding-bottom: .5rem;
       border-bottom: 2px solid #159EE5; }
-    .dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:hover {
-      text-decoration: underline; }
-    .dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:hover, .dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:before {
+    .dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:before {
       color: #159EE5; }
+    .dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:hover {
+      background-color: #159EE5;
+      color: white; }
+      .dropdown.cat-blue > .dropdown-menu.show .sub-cats li > a:hover:before {
+        color: white; }
   .dropdown.cat-yellow > .dropdown-menu.show {
     background-color: #fff !important; }
     .dropdown.cat-yellow > .dropdown-menu.show:before {
@@ -9185,10 +7538,13 @@ table.table th, table.table td {
     .dropdown.cat-yellow > .dropdown-menu.show .dropdown-header {
       padding-bottom: .5rem;
       border-bottom: 2px solid #FF9A34; }
-    .dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:hover {
-      text-decoration: underline; }
-    .dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:hover, .dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:before {
+    .dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:before {
       color: #FF9A34; }
+    .dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:hover {
+      background-color: #FF9A34;
+      color: white; }
+      .dropdown.cat-yellow > .dropdown-menu.show .sub-cats li > a:hover:before {
+        color: white; }
   .dropdown.cat-pink > .dropdown-menu.show {
     background-color: #fff !important; }
     .dropdown.cat-pink > .dropdown-menu.show:before {
@@ -9196,10 +7552,13 @@ table.table th, table.table td {
     .dropdown.cat-pink > .dropdown-menu.show .dropdown-header {
       padding-bottom: .5rem;
       border-bottom: 2px solid #FF77A5; }
-    .dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:hover {
-      text-decoration: underline; }
-    .dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:hover, .dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:before {
+    .dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:before {
       color: #FF77A5; }
+    .dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:hover {
+      background-color: #FF77A5;
+      color: white; }
+      .dropdown.cat-pink > .dropdown-menu.show .sub-cats li > a:hover:before {
+        color: white; }
   .dropdown.cat-green > .dropdown-menu.show {
     background-color: #fff !important; }
     .dropdown.cat-green > .dropdown-menu.show:before {
@@ -9207,12 +7566,14 @@ table.table th, table.table td {
     .dropdown.cat-green > .dropdown-menu.show .dropdown-header {
       padding-bottom: .5rem;
       border-bottom: 2px solid #00B470; }
-    .dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:hover {
-      text-decoration: underline; }
-    .dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:hover, .dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:before {
+    .dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:before {
       color: #00B470; }
+    .dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:hover {
+      background-color: #00B470;
+      color: white; }
+      .dropdown.cat-green > .dropdown-menu.show .sub-cats li > a:hover:before {
+        color: white; }
 
->>>>>>> Stashed changes
 .dropdown-header {
   display: block;
   padding: 0 0 .5rem 0;
@@ -9237,152 +7598,6 @@ table.table th, table.table td {
 
 .sub-cats {
   font-size: 1rem;
-<<<<<<< Updated upstream
-  padding: 2rem 0 1rem 0;
-}
-
-/* line 278, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats > * {
-  margin: 0 1%;
-}
-
-/* line 281, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats ul {
-  margin-bottom: 2rem;
-  padding: 0;
-}
-
-/* line 284, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats ul, .sub-cats ul li {
-  list-style: none;
-}
-
-/* line 287, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats ul li {
-  margin-bottom: .5rem;
-}
-
-/* line 290, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats ul li a:before {
-  font-family: 'FontAwesome';
-  content: "" !important;
-  padding-right: 1em;
-  opacity: 1;
-  margin-left: 0;
-  font-size: 1em;
-  speak: none;
-}
-
-/* line 293, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats ul li a.btn:before {
-  color: white !important;
-}
-
-/* line 294, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.sub-cats ul li a[class*="carousel"]:before {
-  content: '' !important;
-}
-
-@media (min-width: 576px) {
-  /* line 275, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats {
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: between;
-    -moz-box-pack: between;
-    box-pack: between;
-    -webkit-justify-content: between;
-    -moz-justify-content: between;
-    -ms-justify-content: between;
-    -o-justify-content: between;
-    justify-content: between;
-    -ms-flex-pack: between;
-    -webkit-box-align: start;
-    -moz-box-align: start;
-    box-align: start;
-    -webkit-align-items: start;
-    -moz-align-items: start;
-    -ms-align-items: start;
-    -o-align-items: start;
-    align-items: start;
-    -ms-flex-align: start;
-  }
-  /* line 304, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats > div:first-child {
-    flex-basis: 33%;
-  }
-  /* line 307, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats > div:first-child li {
-    border: 0;
-  }
-  /* line 309, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats .d-flex > * {
-    flex-basis: 50%;
-  }
-}
-
-@media (min-width: 576px) and (min-width: 768px) and (max-width: 991.98px) {
-  /* line 275, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats {
-    -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    box-lines: multiple;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-flex-grow: 1;
-    -moz-flex-grow: 1;
-    flex-grow: 1;
-    -ms-flex-positive: 1;
-  }
-  /* line 315, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats > .sub-cat-large {
-    flex-basis: 60%;
-  }
-  /* line 319, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats > *:last-child {
-    -webkit-flex-grow: 0;
-    -moz-flex-grow: 0;
-    flex-grow: 0;
-    -ms-flex-positive: 0;
-    -webkit-flex-shrink: 0;
-    -moz-flex-shrink: 0;
-    flex-shrink: 0;
-    -ms-flex-negative: 0;
-  }
-}
-
-@media (min-width: 576px) and (min-width: 992px) {
-  /* line 325, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .sub-cats > .sub-cat-large {
-    flex-basis: 66%;
-  }
-}
-
-/* line 332, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-#top-nav .navbar-nav {
-  position: relative;
-}
-
-/* line 334, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-#top-nav .nav-item {
-  position: static !important;
-}
-
-/* line 339, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.breadcrumb {
-  background-color: transparent;
-}
-
-@media (max-width: 575.98px) {
-  /* line 339, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-=======
   padding: 2rem 0 1rem 0; }
   .sub-cats > * {
     margin: 0 1%; }
@@ -9471,575 +7686,23 @@ table.table th, table.table td {
 #top-nav .nav-item {
   position: static !important; }
 
-@media (max-width: 575.98px) {
->>>>>>> Stashed changes
-  .breadcrumb {
-    padding: 0 1rem !important;
-    flex-wrap: nowrap !important;
-    width: 100%;
-    overflow: hidden;
-<<<<<<< Updated upstream
-    border: 1px solid rgba(0, 0, 0, 0.125);
-  }
-}
-
-@media (min-width: 992px) {
-  /* line 350, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-=======
-    border: 1px solid rgba(0, 0, 0, 0.125); } }
-@media (min-width: 992px) {
->>>>>>> Stashed changes
-  .breadcrumb:after {
-    content: '';
-    height: 0.3rem;
-    margin: 1rem 0 0 0;
-    width: 100%;
-<<<<<<< Updated upstream
-    display: block;
-    background: linear-gradient(to right, #159EE5 0%, #159EE5 25%, #FF9A34 25%, #FF9A34 50%, #FF77A5 50%, #FF77A5 75%, #00B470 75%, #00B470 100%);
-  }
-}
-
-/* line 357, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.breadcrumb-item {
-  transition: all 400ms ease-in-out;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -moz-box-align: center;
-  box-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -o-align-items: center;
-  align-items: center;
-  -ms-flex-align: center;
-}
-
-@media (max-width: 991.98px) {
-  /* line 357, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .breadcrumb-item {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 10%;
-    opacity: .5;
-  }
-  /* line 364, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .breadcrumb-item.active {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 50%;
-    opacity: 1;
-  }
-  /* line 368, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .breadcrumb-item:hover, .breadcrumb-item:focus {
-    width: 50%;
-    opacity: 1;
-  }
-}
-
-/* line 373, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.breadcrumb-item + .breadcrumb-item::before {
-  font-family: 'FontAwesome';
-  content: "" !important;
-  padding-right: 0.5em;
-  opacity: 1;
-  margin-left: 0.5em;
-  font-size: 2rem;
-  speak: none;
-}
-
-/* line 110, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-blue .breadcrumb-item + .breadcrumb-item::before {
-  color: #159EE5;
-}
-
-/* line 111, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-yellow .breadcrumb-item + .breadcrumb-item::before {
-  color: #FF9A34;
-}
-
-/* line 112, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-pink .breadcrumb-item + .breadcrumb-item::before {
-  color: #FF77A5;
-}
-
-/* line 113, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-green .breadcrumb-item + .breadcrumb-item::before {
-  color: #00B470;
-}
-
-@media (max-width: 575.98px) {
-  /* line 373, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-  .breadcrumb-item + .breadcrumb-item::before {
-    margin-left: 0;
-  }
-}
-
-/* line 381, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.nav-tabs {
-  /*    .cat-blue &{background:$blue;}
-    .cat-yellow &{background:$yellow;}
-    .cat-pink &{background:$pink;}
-    .cat-green &{background:$green;}*/
-  color: white;
-}
-
-/* line 385, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.nav-tabs .nav-item a.active {
-  background: white;
-  color: #333;
-  border-width: 3px 1px 0 1px;
-  border-style: solid;
-  border-color: #ccc rgba(0, 0, 0, 0.125) transparent rgba(0, 0, 0, 0.125);
-  margin-top: -3px;
-  padding-bottom: 1rem;
-}
-
-/* line 396, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_nav.scss */
-.nav-tabs + .tab-content {
-  padding: 1rem;
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0.125);
-  margin-top: -1px;
-}
-
-/* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-[class*="carousel-control"] {
-  width: 40px;
-  font-size: 40px;
-  z-index: 999;
-}
-
-/* line 110, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-blue [class*="carousel-control"] {
-  color: #159EE5;
-}
-
-/* line 111, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-yellow [class*="carousel-control"] {
-  color: #FF9A34;
-}
-
-/* line 112, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-pink [class*="carousel-control"] {
-  color: #FF77A5;
-}
-
-/* line 113, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-.cat-green [class*="carousel-control"] {
-  color: #00B470;
-}
-
-/* line 6, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-[class*="carousel-control"] [class*="icon"] {
-  font-size: inherit;
-  color: inherit;
-}
-
-/* line 10, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-#small_carousel [class*="carousel-control"] {
-  opacity: .75;
-}
-
-@media (max-width: 575.98px) {
-  /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-  [class*="carousel-control"] {
-    justify-content: flex-end;
-    display: none;
-  }
-}
-
-/* line 18, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-control-prev {
-  left: -40px;
-}
-
-/* line 20, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-#small_carousel .carousel-control-prev {
-  left: 0;
-}
-
-/* line 24, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-control-next {
-  right: -40px;
-}
-
-/* line 26, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-#small_carousel .carousel-control-next {
-  right: 0;
-}
-
-/* line 30, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-indicators {
-  z-index: 99999;
-  bottom: -5rem;
-}
-
-/* line 33, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-indicators li {
-  margin: 0 1rem;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  /*    .cat-blue &{background:$blue;}
-    .cat-yellow &{background:$yellow;}
-    .cat-pink &{background:$pink;}
-    .cat-green &{background:$green;}*/
-  opacity: .5;
-}
-
-/* line 39, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-indicators li:hover, .carousel-indicators li.active {
-  opacity: 1;
-}
-
-/* line 43, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-indicators li:hover {
-  cursor: pointer;
-}
-
-/* line 49, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-#small_carousel .carousel-caption {
-  right: 0;
-  left: 0;
-  bottom: -99999px;
-  padding: .5rem;
-  transition: bottom 200ms ease-out;
-}
-
-/* line 55, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.tab-pane.cat-blue #small_carousel .carousel-caption {
-  background-color: rgba(21, 158, 229, 0.25);
-}
-
-/* line 58, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.tab-pane.cat-yellow #small_carousel .carousel-caption {
-  background-color: rgba(255, 154, 52, 0.25);
-}
-
-/* line 61, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.tab-pane.cat-pink #small_carousel .carousel-caption {
-  background-color: rgba(255, 119, 165, 0.25);
-}
-
-/* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.tab-pane.cat-green #small_carousel .carousel-caption {
-  background-color: rgba(0, 180, 112, 0.25);
-}
-
-/* line 67, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-#small_carousel .carousel-caption > * {
-  margin: 0;
-}
-
-/* line 69, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-.carousel-caption #small_carousel:hover {
-  cursor: pointer;
-}
-
-/* line 72, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_carousel.scss */
-#small_carousel:hover .carousel-caption {
-  bottom: 0;
-  transition: bottom 200ms ease-in;
-}
-
-/* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-.image-grid {
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media screen and (max-width: 425px) {
-  /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid {
-    margin: 1px auto;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-direction: column;
-  }
-  /* line 47, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-  }
-  /* line 52, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure > figcaption {
-    position: absolute;
-    top: -300px;
-    font-size: larger;
-    padding: 1vW;
-    font-weight: bold;
-    text-align: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    box-direction: normal;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-direction: row;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    align-items: center;
-    -ms-flex-align: center;
-  }
-  /* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure > figcaption [data-icon] {
-    display: block;
-    margin: 0 auto;
-  }
-  /* line 69, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure:hover, .image-grid figure:focus {
-    cursor: pointer;
-  }
-  /* line 71, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure:hover > figcaption, .image-grid figure:focus > figcaption {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: white;
-    background: rgba(0, 0, 0, 0.7);
-    transition: top 200ms ease-out;
-  }
-}
-
-@media screen and (min-width: 426px) {
-  /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid {
-    -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    box-lines: multiple;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-flex-grow: 1;
-    -moz-flex-grow: 1;
-    flex-grow: 1;
-    -ms-flex-positive: 1;
-  }
-  /* line 12, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid > * {
-    -webkit-box-flex: 1;
-    -moz-box-flex: 1;
-    box-flex: 1;
-    -webkit-flex: 1;
-    -moz-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin: 1px;
-  }
-  /* line 16, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid > *:last-child {
-    -webkit-flex-grow: 0;
-    -moz-flex-grow: 0;
-    flex-grow: 0;
-    -ms-flex-positive: 0;
-    -webkit-flex-shrink: 0;
-    -moz-flex-shrink: 0;
-    flex-shrink: 0;
-    -ms-flex-negative: 0;
-  }
-}
-
-@media screen and (min-width: 426px) and (max-width: 767px) {
-  /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid {
-    margin: 0 -1em;
-  }
-  /* line 23, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid > * {
-    -webkit-flex-basis: calc(100%/2 - 2px);
-    -moz-flex-basis: calc(100%/2 - 2px);
-    flex-basis: calc(100%/2 - 2px);
-    -ms-flex-preferred-size: calc(100%/2 - 2px);
-    max-width: calc(100%/2 - 2px);
-  }
-  /* line 47, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    overflow: hidden;
-  }
-  /* line 52, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure > figcaption {
-    position: absolute;
-    top: -250px;
-    font-size: larger;
-    padding: 1vW;
-    font-weight: bold;
-    text-align: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    box-direction: normal;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-direction: row;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    align-items: center;
-    -ms-flex-align: center;
-  }
-  /* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure > figcaption [data-icon] {
-    display: block;
-    margin: 0 auto;
-  }
-  /* line 69, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure:hover, .image-grid figure:focus {
-    cursor: pointer;
-  }
-  /* line 71, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure:hover > figcaption, .image-grid figure:focus > figcaption {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    color: white;
-    background: rgba(0, 0, 0, 0.7);
-    transition: top 200ms ease-out;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  /* line 31, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_modules.scss */
-  .image-grid > * {
-    -webkit-flex-basis: calc(100%/4 - 2px);
-    -moz-flex-basis: calc(100%/4 - 2px);
-    flex-basis: calc(100%/4 - 2px);
-    -ms-flex-preferred-size: calc(100%/4 - 2px);
-    max-width: calc(100%/4 - 2px);
-  }
-  /* line 47, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure {
-    position: relative;
-    width: 170px;
-    height: 170px;
-    overflow: hidden;
-  }
-  /* line 52, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure > figcaption {
-    position: absolute;
-    top: -170px;
-    font-size: larger;
-    padding: 1vW;
-    font-weight: bold;
-    text-align: center;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    box-direction: normal;
-    -webkit-flex-direction: row;
-    -moz-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-direction: row;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    box-pack: center;
-    -webkit-justify-content: center;
-    -moz-justify-content: center;
-    -ms-justify-content: center;
-    -o-justify-content: center;
-    justify-content: center;
-    -ms-flex-pack: center;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    box-align: center;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
-    -o-align-items: center;
-    align-items: center;
-    -ms-flex-align: center;
-  }
-  /* line 64, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_my_mixins.scss */
-  .image-grid figure > figcaption [data-icon] {
-=======
->>>>>>> Stashed changes
-    display: block;
-    background: linear-gradient(to right, #159EE5 0%, #159EE5 25%, #FF9A34 25%, #FF9A34 50%, #FF77A5 50%, #FF77A5 75%, #00B470 75%, #00B470 100%); } }
+.breadcrumb {
+  background-color: transparent; }
+  @media (max-width: 575.98px) {
+    .breadcrumb {
+      padding: 0 1rem !important;
+      flex-wrap: nowrap !important;
+      width: 100%;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.125); } }
+  @media (min-width: 992px) {
+    .breadcrumb:after {
+      content: '';
+      height: 0.3rem;
+      margin: 1rem 0 0 0;
+      width: 100%;
+      display: block;
+      background: linear-gradient(to right, #159EE5 0%, #159EE5 25%, #FF9A34 25%, #FF9A34 50%, #FF77A5 50%, #FF77A5 75%, #00B470 75%, #00B470 100%); } }
 
 .breadcrumb-item {
   transition: all 400ms ease-in-out;
@@ -10083,55 +7746,29 @@ table.table th, table.table td {
     margin-left: 0.5em;
     font-size: 2rem;
     speak: none; }
-    .cat-blue .breadcrumb-item + .breadcrumb-item::before {
-      color: #159EE5; }
-    .cat-yellow .breadcrumb-item + .breadcrumb-item::before {
-      color: #FF9A34; }
-    .cat-pink .breadcrumb-item + .breadcrumb-item::before {
-      color: #FF77A5; }
-    .cat-green .breadcrumb-item + .breadcrumb-item::before {
-      color: #00B470; }
     @media (max-width: 575.98px) {
       .breadcrumb-item + .breadcrumb-item::before {
         margin-left: 0; } }
 
-.nav-tabs {
-  color: white; }
-  .cat-blue .nav-tabs {
-    background: #159EE5; }
-  .cat-yellow .nav-tabs {
-    background: #FF9A34; }
-  .cat-pink .nav-tabs {
-    background: #FF77A5; }
-  .cat-green .nav-tabs {
-    background: #00B470; }
-  .nav-tabs .nav-item a.active {
-    background: white;
-    color: #333;
-    border-width: 3px 1px 0 1px;
-    border-style: solid;
-    border-color: #ccc rgba(0, 0, 0, 0.125) transparent rgba(0, 0, 0, 0.125);
-    margin-top: -3px;
-    padding-bottom: 1rem; }
-  .nav-tabs + .tab-content {
-    padding: 1rem;
-    border-width: 0 1px 1px 1px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.125);
-    margin-top: -1px; }
+.nav-tabs .nav-link.active {
+  background: white !important;
+  color: #333 !important;
+  border-width: 3px 1px 0 1px;
+  border-style: solid;
+  border-color: #ccc rgba(0, 0, 0, 0.125) transparent rgba(0, 0, 0, 0.125);
+  margin-top: -3px;
+  padding-bottom: 1rem; }
+.nav-tabs + .tab-content {
+  padding: 1rem;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.125);
+  margin-top: -1px; }
 
 [class*="carousel-control"] {
   width: 40px;
   font-size: 40px;
   z-index: 999; }
-  .cat-blue [class*="carousel-control"] {
-    color: #159EE5; }
-  .cat-yellow [class*="carousel-control"] {
-    color: #FF9A34; }
-  .cat-pink [class*="carousel-control"] {
-    color: #FF77A5; }
-  .cat-green [class*="carousel-control"] {
-    color: #00B470; }
   [class*="carousel-control"] [class*="icon"] {
     font-size: inherit;
     color: inherit; }
@@ -10161,14 +7798,6 @@ table.table th, table.table td {
     height: 1em;
     border-radius: 50%;
     opacity: .5; }
-    .cat-blue .carousel-indicators li {
-      background: #159EE5; }
-    .cat-yellow .carousel-indicators li {
-      background: #FF9A34; }
-    .cat-pink .carousel-indicators li {
-      background: #FF77A5; }
-    .cat-green .carousel-indicators li {
-      background: #00B470; }
     .carousel-indicators li:hover, .carousel-indicators li.active {
       opacity: 1; }
     .carousel-indicators li:hover {
@@ -10445,229 +8074,60 @@ table.table th, table.table td {
           background: rgba(0, 0, 0, 0.7);
           transition: top 200ms ease-out; } }
 
-<<<<<<< Updated upstream
-@media (min-width: 768px) {
-  /* line 1, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  body > main {
-    margin-top: 6.25rem;
-  }
-}
+body > main {
+  padding-bottom: 3rem; }
+  @media (max-width: 575.98px) {
+    body > main {
+      margin-top: 5rem; } }
+  @media (min-width: 768px) {
+    body > main {
+      margin-top: 6.25rem; } }
 
-/* line 6, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
 .hero .row {
-  margin-bottom: -10vH;
-  padding-bottom: 5vH;
-}
-
+  /*         margin-bottom: -10vH;*/
+  padding-bottom: 5vH; }
 @media screen and (max-width: 320px) {
-  /* line 5, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
   .hero {
-    min-height: 80vH;
-  }
-}
-
+    min-height: 80vH; } }
 @media (max-width: 575.98px) {
-  /* line 5, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
   .hero {
-    min-height: 70vH;
-  }
-}
-
+    margin-top: 70px;
+    min-height: 70vH; } }
 @media (min-width: 576px) {
-  /* line 5, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
   .hero {
-    min-height: 70vH;
-  }
-}
-
+    min-height: 70vH; } }
 @media (min-width: 768px) {
-  /* line 5, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
   .hero {
-    min-height: 60vH;
-  }
-  /* line 21, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #home .hero .bubble {
-    margin-bottom: -10vH;
-  }
-}
+    min-height: 60vH; }
+    #home .hero .bubble {
+      margin-bottom: -10vH; } }
 
 @media (max-width: 767.98px) {
-  /* line 26, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-=======
-@media (max-width: 767.98px) {
->>>>>>> Stashed changes
   #header {
+    background: white;
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 999999;
-    background: white;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-<<<<<<< Updated upstream
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  }
-}
-
-/* line 36, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-=======
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); } }
->>>>>>> Stashed changes
 #header #top-bar {
   margin: 1rem auto; }
 
-<<<<<<< Updated upstream
-/* line 40, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#header .navbar-brand.bg-image {
-=======
 .navbar-brand.bg-image {
->>>>>>> Stashed changes
   background-color: transparent;
-  background-image: url(../g/logo/logo-large.svg);
+  background-image: url(../g/logo/logo-large.png);
+  background-image: none, url(../g/logo/logo-large.svg);
   background-repeat: no-repeat;
   background-position: right center;
-<<<<<<< Updated upstream
-  background-size: auto 100%;
-  background-margin-right: 1rem;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* line 40, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #header .navbar-brand.bg-image {
-    background-image: url(../img/logo-large@2x.png);
-  }
-}
-
-@media (max-width: 767.98px) {
-  /* line 40, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #header .navbar-brand.bg-image {
-    min-width: 250px;
-    padding: 0 0rem 10px 0;
-    background-position-x: left;
-  }
-}
-
-@media (min-width: 576px) {
-  /* line 40, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #header .navbar-brand.bg-image {
-    padding: 0 1rem 35px 1rem;
-    width: 415px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  /* line 40, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #header .navbar-brand.bg-image {
-    padding: 0 1rem 10px 1rem;
-    margin-right: 1rem;
-    width: 275px;
-  }
-}
-
-@media screen and (min-width: 1366px) {
-  /* line 40, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #header .navbar-brand.bg-image {
-    padding: 0 1rem 25px 0;
-    width: 345px;
-  }
-}
-
-/* line 60, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#header .navbar-brand.bg-image span {
-  text-indent: -9999px;
-  display: block;
-  overflow: hidden;
-}
-
-/* line 68, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#top-nav {
-  background: #495f7f;
-  z-index: 9999;
-  transition: all 400ms ease-in-out;
-}
-
-/* line 72, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#top-nav:after {
-  /*         @include multiple-border(.3rem, 0 0 0 0, 100%);*/
-}
-
-@media (max-width: 767.98px) {
-  /* line 68, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #top-nav {
-    top: 97px !important;
-  }
-}
-
-@media (max-width: 575.98px) {
-  /* line 68, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #top-nav {
-    top: 70px !important;
-  }
-}
-
-/* line 82, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#top-nav [id*="navbar"] {
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  -o-justify-content: center;
-  justify-content: center;
-  -ms-flex-pack: center;
-}
-
-/* line 85, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#top-nav[class*="js-is-st"] {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  -webkit-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-/* line 91, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#top-nav[class*="js-is-st"] [id*="navbar"] {
-  -webkit-box-pack: between;
-  -moz-box-pack: between;
-  box-pack: between;
-  -webkit-justify-content: between;
-  -moz-justify-content: between;
-  -ms-justify-content: between;
-  -o-justify-content: between;
-  justify-content: between;
-  -ms-flex-pack: between;
-}
-
-/*==================================================*/
-/* line 101, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#footer *, #footer *:hover {
-  color: white;
-}
-
-/* line 103, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#footer .logo {
-  min-height: 150px;
-  text-indent: -99999px;
-  background: transparent url(../img/logo-white.png) no-repeat center center/contain;
-}
-
-/* line 105, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-.no-svg #footer .logo {
-  background-image: url(/g/logo/logo-white.png);
-  /* background-image:url(../img/logo-white.png);  */
-}
-
-/* line 110, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-=======
   background-size: contain;
   background-margin-right: 1rem; }
-  .no-svg .navbar-brand.bg-image {
-    background-image: url(/g/logo/logo-large.png); }
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .navbar-brand.bg-image {
       background-image: url(../g/logo/logo-large@2x.png); } }
@@ -10752,17 +8212,25 @@ table.table th, table.table td {
       justify-content: between;
       -ms-flex-pack: between; }
 
+@media (max-width: 800px) {
+  .main-content > .container > .row {
+    flex-direction: column-reverse; } }
+
 /*==================================================*/
 #footer *, #footer *:hover {
   color: white; }
 #footer .logo {
   min-height: 150px;
   text-indent: -99999px;
-  background: transparent url(../img/logo-white.png) no-repeat center center/contain; }
-  .no-svg #footer .logo {
-    background-image: url(/g/logo/logo-white.png);
-    /* background-image:url(../img/logo-white.png);  */ }
->>>>>>> Stashed changes
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-image: url("../g/logo/logo-white.png");
+  background-image: none, url("../g/logo/logo-white.svg"); }
+  @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #footer .logo {
+      background-image: url("../g/logo/logo-white@2x.png"); } }
 #footer .footer-lists {
   background: #495f7f;
   /* Old browsers */
@@ -10779,67 +8247,6 @@ table.table th, table.table td {
   background: linear-gradient(to bottom, #495f7f 0%, #333d48 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
-<<<<<<< Updated upstream
-  /* IE6-9 */
-}
-
-@media (max-width: 575.98px) {
-  /* line 112, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #footer .footer-lists [class*="col"] {
-    margin-bottom: 1rem;
-  }
-}
-
-/* line 118, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#footer .footer-bottom {
-  background: #2d353f;
-}
-
-@media (max-width: 575.98px) {
-  /* line 120, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #footer .footer-bottom [class*="col"] {
-    margin: 1rem 0;
-  }
-}
-
-@media (max-width: 767.98px) {
-  /* line 125, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #footer .footer-bottom [class*="col"][class*="footer-"] {
-    font-size: 1.2rem;
-  }
-}
-
-/* line 132, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#footer .footer-meta-menu ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 136, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-#footer .footer-meta-menu li {
-  /*                @media screen and (max-width:1023px){*/
-}
-
-@media (max-width: 991.98px) {
-  /* line 136, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #footer .footer-meta-menu li {
-    list-style: none;
-  }
-}
-
-@media (min-width: 768px) {
-  /* line 142, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #footer .footer-meta-menu li a {
-    padding: 0 3em 0 1em;
-  }
-  /* line 145, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-  #footer .footer-meta-menu li:first-child {
-    list-style: none;
-  }
-}
-
-/* line 152, C:/MAMP/htdocs/familienbande-bootstrap-4.0/node_modules/bootstrap/scss/customs/_custom_layout.scss */
-=======
   /* IE6-9 */ }
   @media (max-width: 575.98px) {
     #footer .footer-lists [class*="col"] {
@@ -10865,9 +8272,73 @@ table.table th, table.table td {
       padding: 0 3em 0 1em; }
     #footer .footer-meta-menu li:first-child {
       list-style: none; } }
->>>>>>> Stashed changes
 #footer .footer-links a {
   margin-right: .5rem; }
+
+.hero {
+  /*    &:before,*/ }
+  body#home .hero, body#names .hero {
+    background: transparent url(../img/look.jpg) no-repeat 100% 60%/cover; }
+    @media (max-width: 767.98px) {
+      body#home .hero, body#names .hero {
+        background-size: contain;
+        background-position: 0% 0%; } }
+  body#events .hero {
+    background: transparent url(../img/myles-tan-84040.jpg) no-repeat 100% 50%/cover; }
+    @media (max-width: 767.98px) {
+      body#events .hero {
+        background-size: contain;
+        background-position: 0% 0%; } }
+  @media (max-width: 575.98px) {
+    .hero {
+      margin-top: 70px;
+      margin-bottom: 1.5rem; } }
+  @media (min-width: 576px) {
+    .hero:after {
+      content: '';
+      height: 0.3rem;
+      margin: 0 0 2em 0;
+      width: 100%;
+      display: block;
+      background: linear-gradient(to right, #159EE5 0%, #159EE5 25%, #FF9A34 25%, #FF9A34 50%, #FF77A5 50%, #FF77A5 75%, #00B470 75%, #00B470 100%); } }
+  .hero .row {
+    /*        margin-bottom: -10vH;*/
+    padding-bottom: 5vH;
+    /*        @media screen and (min-width:1441px) {
+                min-height: 50vH;
+            }*/ }
+    @media screen and (max-width: 320px) {
+      .hero .row {
+        min-height: 80vH; } }
+    @media (max-width: 575.98px) {
+      .hero .row {
+        min-height: 70vH; }
+        #home .hero .row {
+          min-height: 110px; } }
+    @media (min-width: 576px) {
+      .hero .row {
+        min-height: 70vH; } }
+    @media (min-width: 768px) {
+      .hero .row {
+        min-height: 60vH; }
+        #home .hero .row .bubble {
+          margin-bottom: -10vH; } }
+  @media (min-width: 576px) {
+    .hero .claim, .hero .claim * {
+      color: white; } }
+  @media (min-width: 768px) {
+    body#home .hero h1 {
+      min-height: 150px;
+      text-indent: -99999px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-size: contain;
+      background-image: url("../g/logo/logo-white.png");
+      background-image: none, url("../g/logo/logo-white.svg"); } }
+  @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+    body#home .hero h1 {
+      background-image: url("../g/logo/logo-white@2x.png"); } }
 
 /*@import "customs/custom_sidebar";*/
 .tagcloud ul {
@@ -10943,11 +8414,7 @@ table.table th, table.table td {
   border-bottom-left-radius: 2em;
   border-top-right-radius: 2em;
   border-bottom-right-radius: 2em;
-  overflow: hidden;
-  /*    .cat-blue {background: $blue;}
-      .cat-yellow {background: $yellow;}
-      .cat-pink {background: $pink;}
-      .cat-green {background: $green;}*/ }
+  overflow: hidden; }
   #topicsBlock [class*="col-"] {
     padding: 1em; }
   #topicsBlock [data-icon] {
@@ -10963,6 +8430,9 @@ table.table th, table.table td {
     background: #FF77A5; }
   #topicsBlock [class*="col-"]:nth-child(4n+4) {
     background: #00B470; }
+  @media (max-width: 991.98px) {
+    #topicsBlock {
+      margin: 0 1rem; } }
   @media (min-width: 576px) {
     #topicsBlock {
       margin-top: 2rem; } }
@@ -11035,32 +8505,4 @@ table.table th, table.table td {
   height: 230px;
   overflow: hidden; }
 
-<<<<<<< Updated upstream
-/*# sourceMappingURL=../../../css/bootstrap.map */
-=======
-/**{color:red !important;}*/
-/*==================================================*/
-@media (min-width: 768px) {
-  body > main {
-    margin-top: 6.25rem; } }
-
-.hero .row {
-  margin-bottom: -10vH;
-  padding-bottom: 5vH; }
-@media screen and (max-width: 320px) {
-  .hero {
-    min-height: 80vH; } }
-@media (max-width: 575.98px) {
-  .hero {
-    min-height: 70vH; } }
-@media (min-width: 576px) {
-  .hero {
-    min-height: 70vH; } }
-@media (min-width: 768px) {
-  .hero {
-    min-height: 60vH; }
-    #home .hero .bubble {
-      margin-bottom: -10vH; } }
-
 /*# sourceMappingURL=bootstrap.css.map */
->>>>>>> Stashed changes

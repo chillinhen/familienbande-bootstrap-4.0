@@ -14,13 +14,13 @@
     <main class="main-content mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 sidebar order-lg-2">
+                <div class="col-lg-8 content"> 
+                    <?php include('includes/content/content-events.php'); ?>
+                </div>
+                <div class="col-lg-4 sidebar mb-5">
                     <aside id="infoblock" class="fixedsticky">
                         <?php include('includes/template/sidebar.php'); ?>
                     </aside>
-                </div>
-                <div class="col-lg-8 content order-lg-1"> 
-                    <?php include('includes/content/content-events.php'); ?>
                 </div>
             </div>
         </div>
