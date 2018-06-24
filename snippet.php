@@ -1,48 +1,33 @@
-<!-- Simple Search two Tabs -->
-<!-- cat-blue -->
-<h5 id="btnSuche" class="collapsed d-block d-sm-block d-lg-none cat-blue">
-    <a data-toggle="collapse" href="#collapseSuche" data-target="#collapseSuche" aria-expanded="false" aria-controls="collapseSuche">
-        Vornamen- und Hebammensuche
-    </a>
-</h5>
-<div id="collapseSuche" class="collapse mb-sm-5" aria-labelledby="btnSuche" data-parent="#infoblock">
-    <?php include('includes/modules/simple-search-two-tabs.php'); ?>
-</div>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item cat-yellow">
+        <a class="nav-link text-break active" id="tab-01" data-toggle="tab" href="#item-01" role="tab" aria-controls="item-01" aria-selected="true">
+            <i class="far fa-user"></i>
+            <span>Vornamen</span>
+        </a>
+    </li>
+    <li class="nav-item cat-pink">
+        <a class="nav-link text-break" id="tab-02" data-toggle="tab" href="#item-02" role="tab" aria-controls="item-02" aria-selected="false">
+            <i class="fas fa-female"></i>
+            <span>Hebammen</span>
+        </a>
+    </li>
+    <li class="nav-item cat-cyan">
+        <a class="nav-link text-break" id="tab-03" data-toggle="tab" href="#item-03" role="tab" aria-controls="item-03" aria-selected="false">
+            <i class="fas fa-user-md"></i>
+            <span>Kinderärzte</span>
+        </a>
+    </li>
+    <li class="nav-item cat-blue">
+        <a class="nav-link text-break" id="tab-04" data-toggle="tab" href="#item-04" role="tab" aria-controls="item-04" aria-selected="false">
+            <i class="fas fa-map"></i>
+            <span>Ausflugsziele</span>
+        </a>
+    </li>
+    <li class="nav-item cat-purple">
+        <a class="nav-link text-break" id="tab-05" data-toggle="tab" href="#item-05" role="tab" aria-controls="item-05" aria-selected="false">
+            <i class="fas fa-file-alt"></i>
+            <span>Webseite</span>
+        </a>
+    </li>
+</ul>
 
-<h5 id="btnListe" class="collapsed d-block d-sm-block d-lg-none cat-yellow">
-    <a data-toggle="collapse" href="#collapseListe" aria-expanded="false" aria-controls="collapseListe">
-        Die beliebtesten Artikel
-    </a>
-</h5>
-<div id="collapseListe" class="collapse mb-sm-5" aria-labelledby="btnListe" data-parent="#infoblock">
-    <?php include('includes/cards/card-list-featured.php'); ?>
-</div>
-
-<h5 id="btnText-01" class="collapsed d-block d-sm-block d-lg-none cat-pink">
-    <a data-toggle="collapse" href="#collapseText-01" aria-expanded="false" aria-controls="collapseText-01">
-    Bsp.: Witz der Stunde
-    </a>
-</h5>
-<div id="collapseText-01" class="collapse cat-pink mb-sm-5" aria-labelledby="btnText-01" data-parent="#infoblock">
-    <?php include('includes/cards/card-text.php'); ?>
-</div>
-<!-- Placeholder small ad -->
-<div class="ads d-none d-lg-block"><img class="img-fluid" src="img/small-ad-dummy.jpg" alt=""/></div>
-<!-- Placeholder small ad -->
-<h5 id="btnImg-01" class="collapsed d-block d-sm-block d-lg-none cat-green">
-    <a data-toggle="collapse" href="#collapseImg-01" aria-expanded="false" aria-controls="collapseImg-01">
-    Bsp.: Tageshoroskop
-    </a>
-</h5>
-<div id="collapseImg-01" class="collapse cat-green" aria-labelledby="btnImg-01" data-parent="#infoblock">
-    <?php include('includes/cards/card-with-thumbnail.php'); ?>
-</div>
-
-<h5 id="btnQuote" class="collapsed d-block d-sm-block d-lg-none cat-blue">
-    <a data-toggle="collapse" href="#collapseQuote" aria-expanded="false" aria-controls="collapseQuote">
-    Bsp.: Spruch des Tages
-    </a>
-</h5>
-<div id="collapseQuote" class="collapse cat-green" aria-labelledby="btnQuote" data-parent="#infoblock">
-    <?php include('includes/cards/card-quote.php'); ?>
-</div>
