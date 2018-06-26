@@ -1,11 +1,10 @@
 <div class="row">
+    
     <div class="col-md-12">
+        <div class="intro card mb-5">
         <?php include('includes/content/breadcrumb.php'); ?>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
         <?php include('includes/elements/txt-entry.php'); ?>
+    </div>
     </div>
 </div>
 <div class="row">

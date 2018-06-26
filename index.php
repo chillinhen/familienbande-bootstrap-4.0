@@ -20,7 +20,7 @@
         <div class="container">
                 <?php include('includes/content/content-index.php'); ?>
         </div>
-        <div class="mb-5 pb-5">
+<div class="mb-5 pb-5">
             <div class="col-10 offset-1 text-center">
                 <h2>Weitere Artikel</h2>
                 <?php include('includes/modules/carousel-width-cards.php'); ?>
