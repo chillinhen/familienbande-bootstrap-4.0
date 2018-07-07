@@ -25,6 +25,6 @@
         <?php include('includes/navigation/mega-menu-list.php'); ?>
       </li>
       <li class="nav-item search">
-        <a class="nav-link" data-toggle="modal" data-target="#modalSearchDialog">Suche <i class="fas fa-search"></i></a>
+        <a class="nav-link" data-toggle="collapse" data-target="#navbarSearch" aria-controls="navbarSearchContent" aria-expanded="false" aria-label="Toggle Search">Suche <i class="fas fa-search"></i></a>
     </li>
     </ul>

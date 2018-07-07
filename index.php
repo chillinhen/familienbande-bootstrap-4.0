@@ -18,6 +18,7 @@
     </div>
     <main>
         <div class="container">
+            <?php #include('includes/modules/simple-search.php'); ?>
                 <?php include('includes/content/content-index.php'); ?>
         </div>
 <div class="mb-5 pb-5">

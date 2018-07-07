@@ -47,4 +47,18 @@ jQuery(document).ready(function ($) {
     $('.sub-cats ul li a:not([class*="carousel"])').each(function () {
         $(this).prepend('<i class="fas fa-arrow-circle-right"></i>');
     });
+    
+    $('#navbarSearch input#search').focus(function () {
+        $(this).prev("i.btn-close").css("opacity", "1");
+    });
+    $("i.btn-close").click(function(){
+        $('#navbarSearch').removeClass('show');
+    });
+    $('#top-nav .nav-item').each(function(){
+        $(this).children('.nav-link.dropdown-toggle').append('<span class="triangle">▲</span>');
+    });
+    
+    $('.nav-link.dropdown-toggle').click(function(){
+        $(this).toggleClass('show');
+    });
 });

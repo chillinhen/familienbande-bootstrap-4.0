@@ -9,7 +9,7 @@
                 <span>familienbande24.de</span>
             </a>
              
-            <div class="ads">
+            <div class="ads my-lg-3">
                 <!--            <div class="d-none d-xl-block order-md-1 order-lg-2">-->
                 <img class="leaderboard" src="https://dummyimage.com/970x90/eee/00ffd5.png." alt="Dummy Leaderboard">
             </div>

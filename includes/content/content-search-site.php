@@ -10,7 +10,7 @@
 </div>
 <div class="row">
     <div class="col-sm-12">
-        <?php include('includes/modules/large-search-inkl-checkbox.php'); ?>
+        <?php include('includes/modules/topic-tabs.php'); ?>
     </div>
 </div>
 <div class="row">
