@@ -7,7 +7,7 @@
 
     <div class="hint">
         <span>Nicht dabei, was du suchst? Dann nutze unsere </span>
-        <a class="advanced-search-link" href="template-suche.php">
+        <a class="advanced-search-link" href="template-search-site.php">
             <strong>Erweiterte Suche <i class="fas fa-arrow-circle-right"></i></strong>
         </a>
     </div>
